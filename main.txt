@@ -394,7 +394,7 @@ UICorner_23.Parent = toggleinfo
 
 -- Scripts:
 
-local function FDSZX_fake_script() -- HomeB.LocalScript 
+local function KOMRPUP_fake_script() -- HomeB.LocalScript 
 	local script = Instance.new('LocalScript', HomeB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -411,8 +411,8 @@ local function FDSZX_fake_script() -- HomeB.LocalScript
 		SettingsF.Visible = false
 	end)
 end
-coroutine.wrap(FDSZX_fake_script)()
-local function SDQFMEM_fake_script() -- MuscleB.LocalScript 
+coroutine.wrap(KOMRPUP_fake_script)()
+local function HSVDQZ_fake_script() -- MuscleB.LocalScript 
 	local script = Instance.new('LocalScript', MuscleB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -429,8 +429,8 @@ local function SDQFMEM_fake_script() -- MuscleB.LocalScript
 		SettingsF.Visible = false
 	end)
 end
-coroutine.wrap(SDQFMEM_fake_script)()
-local function QGRGQ_fake_script() -- SkillsB.LocalScript 
+coroutine.wrap(HSVDQZ_fake_script)()
+local function OMFAKQ_fake_script() -- SkillsB.LocalScript 
 	local script = Instance.new('LocalScript', SkillsB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -447,8 +447,8 @@ local function QGRGQ_fake_script() -- SkillsB.LocalScript
 		SettingsF.Visible = false
 	end)
 end
-coroutine.wrap(QGRGQ_fake_script)()
-local function PHIS_fake_script() -- PlayerB.LocalScript 
+coroutine.wrap(OMFAKQ_fake_script)()
+local function IQMFL_fake_script() -- PlayerB.LocalScript 
 	local script = Instance.new('LocalScript', PlayerB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -465,8 +465,8 @@ local function PHIS_fake_script() -- PlayerB.LocalScript
 		SettingsF.Visible = false
 	end)
 end
-coroutine.wrap(PHIS_fake_script)()
-local function EPMSME_fake_script() -- SettingsB.LocalScript 
+coroutine.wrap(IQMFL_fake_script)()
+local function LZHF_fake_script() -- SettingsB.LocalScript 
 	local script = Instance.new('LocalScript', SettingsB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -483,8 +483,8 @@ local function EPMSME_fake_script() -- SettingsB.LocalScript
 		SettingsF.Visible = true
 	end)
 end
-coroutine.wrap(EPMSME_fake_script)()
-local function GNIMF_fake_script() -- userPNG.LocalScript 
+coroutine.wrap(LZHF_fake_script)()
+local function JXLKDEZ_fake_script() -- userPNG.LocalScript 
 	local script = Instance.new('LocalScript', userPNG)
 
 	local Players = game:GetService("Players")
@@ -499,8 +499,8 @@ local function GNIMF_fake_script() -- userPNG.LocalScript
 	local imageLabel = script.Parent
 	imageLabel.Image = content
 end
-coroutine.wrap(GNIMF_fake_script)()
-local function ZSPNEC_fake_script() -- AutoClick.LocalScript 
+coroutine.wrap(JXLKDEZ_fake_script)()
+local function DBCAA_fake_script() -- AutoClick.LocalScript 
 	local script = Instance.new('LocalScript', AutoClick)
 
 	local AutoFarm = script.Parent
@@ -523,8 +523,8 @@ local function ZSPNEC_fake_script() -- AutoClick.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZSPNEC_fake_script)()
-local function WWGIF_fake_script() -- AutoSell.LocalScript 
+coroutine.wrap(DBCAA_fake_script)()
+local function VYOJH_fake_script() -- AutoSell.LocalScript 
 	local script = Instance.new('LocalScript', AutoSell)
 
 	local AUTOSELL = script.Parent
@@ -542,20 +542,20 @@ local function WWGIF_fake_script() -- AutoSell.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WWGIF_fake_script)()
-local function DYJAP_fake_script() -- FastLift.LocalScript 
+coroutine.wrap(VYOJH_fake_script)()
+local function UJVR_fake_script() -- FastLift.LocalScript 
 	local script = Instance.new('LocalScript', FastLift)
 
 	local FastLift = script.Parent
 
 	FastLift.MouseButton1Click:connect(function()
-		while wait(0.1) do
+		while wait() do
 			game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"GainMuscle"})
 		end
 	end)
 end
-coroutine.wrap(DYJAP_fake_script)()
-local function CYEGRE_fake_script() -- Poseidon.LocalScript 
+coroutine.wrap(UJVR_fake_script)()
+local function GREQ_fake_script() -- Poseidon.LocalScript 
 	local script = Instance.new('LocalScript', Poseidon)
 
 	local PoseidonB = script.Parent
@@ -578,8 +578,8 @@ local function CYEGRE_fake_script() -- Poseidon.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CYEGRE_fake_script)()
-local function VEMQDS_fake_script() -- Cronus.LocalScript 
+coroutine.wrap(GREQ_fake_script)()
+local function YGQVM_fake_script() -- Cronus.LocalScript 
 	local script = Instance.new('LocalScript', Cronus)
 
 	local CronusB = script.Parent
@@ -602,8 +602,8 @@ local function VEMQDS_fake_script() -- Cronus.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VEMQDS_fake_script)()
-local function OWQOV_fake_script() -- Zeus.LocalScript 
+coroutine.wrap(YGQVM_fake_script)()
+local function LDERKN_fake_script() -- Zeus.LocalScript 
 	local script = Instance.new('LocalScript', Zeus)
 
 	local ZeusB = script.Parent
@@ -626,16 +626,16 @@ local function OWQOV_fake_script() -- Zeus.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OWQOV_fake_script)()
-local function BCWL_fake_script() -- FruitLoops.LocalScript 
+coroutine.wrap(LDERKN_fake_script)()
+local function YPHJQ_fake_script() -- FruitLoops.LocalScript 
 	local script = Instance.new('LocalScript', FruitLoops)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.swag.Text = "FRUITLOOPS"
 	end)
 end
-coroutine.wrap(BCWL_fake_script)()
-local function VJAF_fake_script() -- KillAll.LocalScript 
+coroutine.wrap(YPHJQ_fake_script)()
+local function YHIU_fake_script() -- KillAll.LocalScript 
 	local script = Instance.new('LocalScript', KillAll)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -644,8 +644,8 @@ local function VJAF_fake_script() -- KillAll.LocalScript
 		script.Parent.Text = "Kill All"
 	end)
 end
-coroutine.wrap(VJAF_fake_script)()
-local function QTJSPEM_fake_script() -- AntiAFK.n 
+coroutine.wrap(YHIU_fake_script)()
+local function QHKXT_fake_script() -- AntiAFK.n 
 	local script = Instance.new('LocalScript', AntiAFK)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -657,8 +657,8 @@ local function QTJSPEM_fake_script() -- AntiAFK.n
 		end)
 	end)
 end
-coroutine.wrap(QTJSPEM_fake_script)()
-local function POJR_fake_script() -- Main.togglegui 
+coroutine.wrap(QHKXT_fake_script)()
+local function XWUYYFS_fake_script() -- Main.togglegui 
 	local script = Instance.new('LocalScript', Main)
 
 	local UIS = game:GetService("UserInputService")
@@ -670,4 +670,4 @@ local function POJR_fake_script() -- Main.togglegui
 		end
 	end)
 end
-coroutine.wrap(POJR_fake_script)()
+coroutine.wrap(XWUYYFS_fake_script)()
