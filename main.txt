@@ -1,0 +1,673 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local swagmode = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local swag = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local HomeB = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local MuscleB = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local SkillsB = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local PlayerB = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local SettingsB = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local HomeF = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local Discord = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local userPNG = Instance.new("ImageLabel")
+local UICorner_9 = Instance.new("UICorner")
+local MuscleF = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local AutoClick = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local AutoSell = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local FastLift = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local SkillsF = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local Poseidon = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Cronus = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local Zeus = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local PlayerF = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local FruitLoops = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local KillAll = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local SettingsF = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local AntiAFK = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local toggleinfo = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+
+--Properties:
+
+swagmode.Name = "swagmode"
+swagmode.Parent = game.CoreGui
+swagmode.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = swagmode
+Main.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+Main.Position = UDim2.new(0.382771552, 0, 0.214182362, 0)
+Main.Size = UDim2.new(0, 584, 0, 312)
+Main.Active = true
+Main.Draggable = true
+
+UICorner.Parent = Main
+
+swag.Name = "swag"
+swag.Parent = Main
+swag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+swag.BackgroundTransparency = 1.000
+swag.Size = UDim2.new(0, 198, 0, 45)
+swag.Font = Enum.Font.SourceSans
+swag.Text = "SWAGMODE"
+swag.TextColor3 = Color3.fromRGB(255, 255, 255)
+swag.TextScaled = true
+swag.TextSize = 14.000
+swag.TextWrapped = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient.Parent = swag
+
+HomeB.Name = "HomeB"
+HomeB.Parent = Main
+HomeB.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+HomeB.Position = UDim2.new(0.0154109588, 0, 0.166666672, 0)
+HomeB.Size = UDim2.new(0, 127, 0, 31)
+HomeB.Font = Enum.Font.SourceSans
+HomeB.Text = "Home"
+HomeB.TextColor3 = Color3.fromRGB(180, 180, 180)
+HomeB.TextScaled = true
+HomeB.TextSize = 14.000
+HomeB.TextWrapped = true
+
+UICorner_2.Parent = HomeB
+
+MuscleB.Name = "MuscleB"
+MuscleB.Parent = Main
+MuscleB.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+MuscleB.Position = UDim2.new(0.0154109588, 0, 0.285256416, 0)
+MuscleB.Size = UDim2.new(0, 127, 0, 31)
+MuscleB.Font = Enum.Font.SourceSans
+MuscleB.Text = "Muscle"
+MuscleB.TextColor3 = Color3.fromRGB(180, 180, 180)
+MuscleB.TextScaled = true
+MuscleB.TextSize = 14.000
+MuscleB.TextWrapped = true
+
+UICorner_3.Parent = MuscleB
+
+SkillsB.Name = "SkillsB"
+SkillsB.Parent = Main
+SkillsB.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+SkillsB.Position = UDim2.new(0.0154109588, 0, 0.410256416, 0)
+SkillsB.Size = UDim2.new(0, 127, 0, 31)
+SkillsB.Font = Enum.Font.SourceSans
+SkillsB.Text = "Skills"
+SkillsB.TextColor3 = Color3.fromRGB(180, 180, 180)
+SkillsB.TextScaled = true
+SkillsB.TextSize = 14.000
+SkillsB.TextWrapped = true
+
+UICorner_4.Parent = SkillsB
+
+PlayerB.Name = "PlayerB"
+PlayerB.Parent = Main
+PlayerB.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+PlayerB.Position = UDim2.new(0.0154109588, 0, 0.528846145, 0)
+PlayerB.Size = UDim2.new(0, 127, 0, 31)
+PlayerB.Font = Enum.Font.SourceSans
+PlayerB.Text = "Player"
+PlayerB.TextColor3 = Color3.fromRGB(180, 180, 180)
+PlayerB.TextScaled = true
+PlayerB.TextSize = 14.000
+PlayerB.TextWrapped = true
+
+UICorner_5.Parent = PlayerB
+
+SettingsB.Name = "SettingsB"
+SettingsB.Parent = Main
+SettingsB.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+SettingsB.Position = UDim2.new(0.760273993, 0, 0.0448717996, 0)
+SettingsB.Size = UDim2.new(0, 127, 0, 31)
+SettingsB.Font = Enum.Font.SourceSans
+SettingsB.Text = "Settings"
+SettingsB.TextColor3 = Color3.fromRGB(180, 180, 180)
+SettingsB.TextScaled = true
+SettingsB.TextSize = 14.000
+SettingsB.TextWrapped = true
+
+UICorner_6.Parent = SettingsB
+
+HomeF.Name = "HomeF"
+HomeF.Parent = Main
+HomeF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+HomeF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
+HomeF.Size = UDim2.new(0, 428, 0, 249)
+
+UICorner_7.Parent = HomeF
+
+TextLabel.Parent = HomeF
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0700934604, 0, 0.076305218, 0)
+TextLabel.Size = UDim2.new(0, 368, 0, 80)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Play with swag"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextWrapped = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_2.Parent = TextLabel
+
+Discord.Name = "Discord"
+Discord.Parent = HomeF
+Discord.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+Discord.Position = UDim2.new(0.0322301276, 0, 0.45250234, 0)
+Discord.Size = UDim2.new(0, 399, 0, 31)
+Discord.Font = Enum.Font.SourceSans
+Discord.Text = "Discord: Tkb#4439"
+Discord.TextColor3 = Color3.fromRGB(0, 0, 0)
+Discord.TextScaled = true
+Discord.TextSize = 14.000
+Discord.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+Discord.TextWrapped = true
+
+UICorner_8.Parent = Discord
+
+userPNG.Name = "userPNG"
+userPNG.Parent = Main
+userPNG.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+userPNG.BackgroundTransparency = 1.000
+userPNG.Position = UDim2.new(0.0381624401, 0, 0.662213862, 0)
+userPNG.Size = UDim2.new(0, 100, 0, 94)
+userPNG.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+userPNG.ImageColor3 = Color3.fromRGB(70, 70, 70)
+
+UICorner_9.Parent = userPNG
+
+MuscleF.Name = "MuscleF"
+MuscleF.Parent = Main
+MuscleF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+MuscleF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
+MuscleF.Size = UDim2.new(0, 428, 0, 249)
+MuscleF.Visible = false
+
+UICorner_10.Parent = MuscleF
+
+AutoClick.Name = "AutoClick"
+AutoClick.Parent = MuscleF
+AutoClick.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+AutoClick.Position = UDim2.new(0.0345666409, 0, 0.0549119562, 0)
+AutoClick.Size = UDim2.new(0, 127, 0, 31)
+AutoClick.Font = Enum.Font.SourceSans
+AutoClick.Text = "AutoClick"
+AutoClick.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoClick.TextScaled = true
+AutoClick.TextSize = 14.000
+AutoClick.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+AutoClick.TextWrapped = true
+
+UICorner_11.Parent = AutoClick
+
+AutoSell.Name = "AutoSell"
+AutoSell.Parent = MuscleF
+AutoSell.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+AutoSell.Position = UDim2.new(0.349987209, 0, 0.0549119562, 0)
+AutoSell.Size = UDim2.new(0, 127, 0, 31)
+AutoSell.Font = Enum.Font.SourceSans
+AutoSell.Text = "AutoSell"
+AutoSell.TextColor3 = Color3.fromRGB(0, 0, 0)
+AutoSell.TextScaled = true
+AutoSell.TextSize = 14.000
+AutoSell.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+AutoSell.TextWrapped = true
+
+UICorner_12.Parent = AutoSell
+
+FastLift.Name = "FastLift"
+FastLift.Parent = MuscleF
+FastLift.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+FastLift.Position = UDim2.new(0.665407777, 0, 0.0549119562, 0)
+FastLift.Size = UDim2.new(0, 127, 0, 31)
+FastLift.Font = Enum.Font.SourceSans
+FastLift.Text = "FastLift"
+FastLift.TextColor3 = Color3.fromRGB(0, 0, 0)
+FastLift.TextScaled = true
+FastLift.TextSize = 14.000
+FastLift.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+FastLift.TextWrapped = true
+
+UICorner_13.Parent = FastLift
+
+SkillsF.Name = "SkillsF"
+SkillsF.Parent = Main
+SkillsF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+SkillsF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
+SkillsF.Size = UDim2.new(0, 428, 0, 249)
+SkillsF.Visible = false
+
+UICorner_14.Parent = SkillsF
+
+Poseidon.Name = "Poseidon"
+Poseidon.Parent = SkillsF
+Poseidon.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+Poseidon.Position = UDim2.new(0.0345666409, 0, 0.0549119562, 0)
+Poseidon.Size = UDim2.new(0, 127, 0, 31)
+Poseidon.Font = Enum.Font.SourceSans
+Poseidon.Text = "Poseidon"
+Poseidon.TextColor3 = Color3.fromRGB(0, 0, 0)
+Poseidon.TextScaled = true
+Poseidon.TextSize = 14.000
+Poseidon.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+Poseidon.TextWrapped = true
+
+UICorner_15.Parent = Poseidon
+
+Cronus.Name = "Cronus"
+Cronus.Parent = SkillsF
+Cronus.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+Cronus.Position = UDim2.new(0.349987209, 0, 0.0549119562, 0)
+Cronus.Size = UDim2.new(0, 127, 0, 31)
+Cronus.Font = Enum.Font.SourceSans
+Cronus.Text = "Cronus"
+Cronus.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cronus.TextScaled = true
+Cronus.TextSize = 14.000
+Cronus.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+Cronus.TextWrapped = true
+
+UICorner_16.Parent = Cronus
+
+Zeus.Name = "Zeus"
+Zeus.Parent = SkillsF
+Zeus.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+Zeus.Position = UDim2.new(0.670080662, 0, 0.0549119562, 0)
+Zeus.Size = UDim2.new(0, 127, 0, 31)
+Zeus.Font = Enum.Font.SourceSans
+Zeus.Text = "Zeus"
+Zeus.TextColor3 = Color3.fromRGB(0, 0, 0)
+Zeus.TextScaled = true
+Zeus.TextSize = 14.000
+Zeus.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+Zeus.TextWrapped = true
+
+UICorner_17.Parent = Zeus
+
+PlayerF.Name = "PlayerF"
+PlayerF.Parent = Main
+PlayerF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+PlayerF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
+PlayerF.Size = UDim2.new(0, 428, 0, 249)
+PlayerF.Visible = false
+
+UICorner_18.Parent = PlayerF
+
+FruitLoops.Name = "FruitLoops"
+FruitLoops.Parent = PlayerF
+FruitLoops.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+FruitLoops.Position = UDim2.new(0.0322301276, 0, 0.0589280427, 0)
+FruitLoops.Size = UDim2.new(0, 399, 0, 31)
+FruitLoops.Font = Enum.Font.SourceSans
+FruitLoops.Text = "Fruit Loops"
+FruitLoops.TextColor3 = Color3.fromRGB(0, 0, 0)
+FruitLoops.TextScaled = true
+FruitLoops.TextSize = 14.000
+FruitLoops.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+FruitLoops.TextWrapped = true
+
+UICorner_19.Parent = FruitLoops
+
+KillAll.Name = "KillAll"
+KillAll.Parent = PlayerF
+KillAll.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+KillAll.Position = UDim2.new(0.0322301276, 0, 0.219570607, 0)
+KillAll.Size = UDim2.new(0, 399, 0, 31)
+KillAll.Font = Enum.Font.SourceSans
+KillAll.Text = "Kill All"
+KillAll.TextColor3 = Color3.fromRGB(0, 0, 0)
+KillAll.TextScaled = true
+KillAll.TextSize = 14.000
+KillAll.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+KillAll.TextWrapped = true
+
+UICorner_20.Parent = KillAll
+
+SettingsF.Name = "SettingsF"
+SettingsF.Parent = Main
+SettingsF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+SettingsF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
+SettingsF.Size = UDim2.new(0, 428, 0, 249)
+SettingsF.Visible = false
+
+UICorner_21.Parent = SettingsF
+
+AntiAFK.Name = "AntiAFK"
+AntiAFK.Parent = SettingsF
+AntiAFK.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+AntiAFK.Position = UDim2.new(0.0345665775, 0, 0.0549119711, 0)
+AntiAFK.Size = UDim2.new(0, 399, 0, 31)
+AntiAFK.Font = Enum.Font.SourceSans
+AntiAFK.Text = "AntiAFK (remove 20min idle kick)"
+AntiAFK.TextColor3 = Color3.fromRGB(0, 0, 0)
+AntiAFK.TextScaled = true
+AntiAFK.TextSize = 14.000
+AntiAFK.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+AntiAFK.TextWrapped = true
+
+UICorner_22.Parent = AntiAFK
+
+toggleinfo.Name = "toggle info"
+toggleinfo.Parent = SettingsF
+toggleinfo.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+toggleinfo.Position = UDim2.new(0.0345665775, 0, 0.227602735, 0)
+toggleinfo.Size = UDim2.new(0, 399, 0, 31)
+toggleinfo.Font = Enum.Font.SourceSans
+toggleinfo.Text = "Press RightControl to toggle GUI"
+toggleinfo.TextColor3 = Color3.fromRGB(0, 0, 0)
+toggleinfo.TextScaled = true
+toggleinfo.TextSize = 14.000
+toggleinfo.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+toggleinfo.TextWrapped = true
+
+UICorner_23.Parent = toggleinfo
+
+-- Scripts:
+
+local function EVMLTS_fake_script() -- HomeB.LocalScript 
+	local script = Instance.new('LocalScript', HomeB)
+
+	local HomeF = script.Parent.Parent.HomeF
+	local MuscleF = script.Parent.Parent.MuscleF
+	local SkilssF = script.Parent.Parent.SkillsF
+	local PlayerF = script.Parent.Parent.PlayerF
+	local SettingsF = script.Parent.Parent.SettingsF
+
+	script.Parent.MouseButton1Click:Connect(function()
+		HomeF.Visible = true
+		MuscleF.Visible = false
+		SkilssF.Visible = false
+		PlayerF.Visible = false
+		SettingsF.Visible = false
+	end)
+end
+coroutine.wrap(EVMLTS_fake_script)()
+local function NNCN_fake_script() -- MuscleB.LocalScript 
+	local script = Instance.new('LocalScript', MuscleB)
+
+	local HomeF = script.Parent.Parent.HomeF
+	local MuscleF = script.Parent.Parent.MuscleF
+	local SkilssF = script.Parent.Parent.SkillsF
+	local PlayerF = script.Parent.Parent.PlayerF
+	local SettingsF = script.Parent.Parent.SettingsF
+
+	script.Parent.MouseButton1Click:Connect(function()
+		HomeF.Visible = false
+		MuscleF.Visible = true
+		SkilssF.Visible = false
+		PlayerF.Visible = false
+		SettingsF.Visible = false
+	end)
+end
+coroutine.wrap(NNCN_fake_script)()
+local function ZAXYR_fake_script() -- SkillsB.LocalScript 
+	local script = Instance.new('LocalScript', SkillsB)
+
+	local HomeF = script.Parent.Parent.HomeF
+	local MuscleF = script.Parent.Parent.MuscleF
+	local SkilssF = script.Parent.Parent.SkillsF
+	local PlayerF = script.Parent.Parent.PlayerF
+	local SettingsF = script.Parent.Parent.SettingsF
+
+	script.Parent.MouseButton1Click:Connect(function()
+		HomeF.Visible = false
+		MuscleF.Visible = false
+		SkilssF.Visible = true
+		PlayerF.Visible = false
+		SettingsF.Visible = false
+	end)
+end
+coroutine.wrap(ZAXYR_fake_script)()
+local function JSFTA_fake_script() -- PlayerB.LocalScript 
+	local script = Instance.new('LocalScript', PlayerB)
+
+	local HomeF = script.Parent.Parent.HomeF
+	local MuscleF = script.Parent.Parent.MuscleF
+	local SkilssF = script.Parent.Parent.SkillsF
+	local PlayerF = script.Parent.Parent.PlayerF
+	local SettingsF = script.Parent.Parent.SettingsF
+
+	script.Parent.MouseButton1Click:Connect(function()
+		HomeF.Visible = false
+		MuscleF.Visible = false
+		SkilssF.Visible = false
+		PlayerF.Visible = true
+		SettingsF.Visible = false
+	end)
+end
+coroutine.wrap(JSFTA_fake_script)()
+local function EAKS_fake_script() -- SettingsB.LocalScript 
+	local script = Instance.new('LocalScript', SettingsB)
+
+	local HomeF = script.Parent.Parent.HomeF
+	local MuscleF = script.Parent.Parent.MuscleF
+	local SkilssF = script.Parent.Parent.SkillsF
+	local PlayerF = script.Parent.Parent.PlayerF
+	local SettingsF = script.Parent.Parent.SettingsF
+
+	script.Parent.MouseButton1Click:Connect(function()
+		HomeF.Visible = false
+		MuscleF.Visible = false
+		SkilssF.Visible = false
+		PlayerF.Visible = false
+		SettingsF.Visible = true
+	end)
+end
+coroutine.wrap(EAKS_fake_script)()
+local function ENEXNDZ_fake_script() -- userPNG.LocalScript 
+	local script = Instance.new('LocalScript', userPNG)
+
+	local Players = game:GetService("Players")
+
+	local player = Players.LocalPlayer
+
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+end
+coroutine.wrap(ENEXNDZ_fake_script)()
+local function ABJJ_fake_script() -- AutoClick.LocalScript 
+	local script = Instance.new('LocalScript', AutoClick)
+
+	local AutoFarm = script.Parent
+
+	AutoFarm.MouseButton1Down:connect(function()
+		if _G.AF == true then _G.AF = false else _G.AF = true end
+		while _G.AF do
+			wait()
+			if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") then
+				game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool"):Activate()
+			end
+			local A_1 = 
+				{
+					[1] = "Skill_Disabled", 
+					[2] = Ray.new(Vector3.new(-739.530945, 558.037659, 2341.94678), Vector3.new(0.594776273, -0.46816507, -0.653500319)), 
+					[3] = "Skill0"
+				}
+			local Event = game:GetService("ReplicatedStorage").RemoteEvent
+			Event:FireServer(A_1)
+		end
+	end)
+end
+coroutine.wrap(ABJJ_fake_script)()
+local function QYDWEVY_fake_script() -- AutoSell.LocalScript 
+	local script = Instance.new('LocalScript', AutoSell)
+
+	local AUTOSELL = script.Parent
+
+	AUTOSELL.MouseButton1Down:connect(function()
+		_G.Sale = true
+
+		while _G.Sale do
+			wait()
+			local table_1 = {
+				[1] = 'SellMuscle'
+			};
+			local Target = game:GetService("ReplicatedStorage").RemoteEvent;
+			Target:FireServer(table_1);
+		end
+	end)
+end
+coroutine.wrap(QYDWEVY_fake_script)()
+local function DZPMTDM_fake_script() -- FastLift.LocalScript 
+	local script = Instance.new('LocalScript', FastLift)
+
+	local FastLift = script.Parent
+
+	FastLift.MouseButton1Click:connect(function()
+		while wait(0.3) do
+			game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"GainMuscle"})
+		end
+	end)
+end
+coroutine.wrap(DZPMTDM_fake_script)()
+local function WAVC_fake_script() -- Poseidon.LocalScript 
+	local script = Instance.new('LocalScript', Poseidon)
+
+	local PoseidonB = script.Parent
+
+	PoseidonB.MouseButton1Down:connect(function()
+		if _G.PS == true then _G.PS = false else _G.PS = true end
+		while _G.PS do
+			wait()
+			if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") then
+				game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool"):Activate()
+			end
+			local A_1 = 
+				{
+					[1] = "Skill_Activated", 
+					[2] = Ray.new(Vector3.new(-739.530945, 558.037659, 2341.94678), Vector3.new(0.594776273, -0.46816507, -0.653500319)), 
+					[3] = "Skill3"
+				}
+			local Event = game:GetService("ReplicatedStorage").RemoteEvent
+			Event:FireServer(A_1)
+		end
+	end)
+end
+coroutine.wrap(WAVC_fake_script)()
+local function LZXPQB_fake_script() -- Cronus.LocalScript 
+	local script = Instance.new('LocalScript', Cronus)
+
+	local CronusB = script.Parent
+
+	CronusB.MouseButton1Down:connect(function()
+		if _G.CR == true then _G.CR = false else _G.CR = true end
+		while _G.CR do
+			wait()
+			if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") then
+				game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool"):Activate()
+			end
+			local A_1 = 
+				{
+					[1] = "Skill_Activated", 
+					[2] = Ray.new(Vector3.new(-739.530945, 558.037659, 2341.94678), Vector3.new(0.594776273, -0.46816507, -0.653500319)), 
+					[3] = "Skill7"
+				}
+			local Event = game:GetService("ReplicatedStorage").RemoteEvent
+			Event:FireServer(A_1)
+		end
+	end)
+end
+coroutine.wrap(LZXPQB_fake_script)()
+local function QJSH_fake_script() -- Zeus.LocalScript 
+	local script = Instance.new('LocalScript', Zeus)
+
+	local ZeusB = script.Parent
+
+	ZeusB.MouseButton1Down:connect(function()
+		if _G.ZS == true then _G.ZS = false else _G.ZS = true end
+		while _G.ZS do
+			wait()
+			if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") then
+				game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool"):Activate()
+			end
+			local A_1 = 
+				{
+					[1] = "Skill_Activated", 
+					[2] = Ray.new(Vector3.new(-739.530945, 558.037659, 2341.94678), Vector3.new(0.594776273, -0.46816507, -0.653500319)), 
+					[3] = "Skill6"
+				}
+			local Event = game:GetService("ReplicatedStorage").RemoteEvent
+			Event:FireServer(A_1)
+		end
+	end)
+end
+coroutine.wrap(QJSH_fake_script)()
+local function GGMK_fake_script() -- FruitLoops.LocalScript 
+	local script = Instance.new('LocalScript', FruitLoops)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.swag.Text = "FRUITLOOPS"
+	end)
+end
+coroutine.wrap(GGMK_fake_script)()
+local function CEAHVB_fake_script() -- KillAll.LocalScript 
+	local script = Instance.new('LocalScript', KillAll)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Text = "in work"
+		wait(3)
+		script.Parent.Text = "Kill All"
+	end)
+end
+coroutine.wrap(CEAHVB_fake_script)()
+local function ZBLCD_fake_script() -- AntiAFK.n 
+	local script = Instance.new('LocalScript', AntiAFK)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+			wait(1)
+			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+	end)
+end
+coroutine.wrap(ZBLCD_fake_script)()
+local function SMOHB_fake_script() -- Main.togglegui 
+	local script = Instance.new('LocalScript', Main)
+
+	local UIS = game:GetService("UserInputService")
+	local GuiObj = script.Parent
+
+	UIS.InputBegan:Connect(function(Key)
+		if Key.keyCode == Enum.KeyCode.RightControl then
+			GuiObj.Visible = not GuiObj.Visible
+		end
+	end)
+end
+coroutine.wrap(SMOHB_fake_script)()
