@@ -6,8 +6,6 @@
 local swagmode = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
-local swag = Instance.new("TextLabel")
-local UIGradient = Instance.new("UIGradient")
 local HomeB = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local MuscleB = Instance.new("TextButton")
@@ -21,7 +19,7 @@ local UICorner_6 = Instance.new("UICorner")
 local HomeF = Instance.new("Frame")
 local UICorner_7 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
-local UIGradient_2 = Instance.new("UIGradient")
+local UIGradient = Instance.new("UIGradient")
 local Discord = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
 local userPNG = Instance.new("ImageLabel")
@@ -44,16 +42,31 @@ local Zeus = Instance.new("TextButton")
 local UICorner_17 = Instance.new("UICorner")
 local PlayerF = Instance.new("Frame")
 local UICorner_18 = Instance.new("UICorner")
-local FruitLoops = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
 local KillAll = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
 local SettingsF = Instance.new("Frame")
-local UICorner_21 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local AntiAFK = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
 local toggleinfo = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local FruitLoops = Instance.new("TextButton")
 local UICorner_23 = Instance.new("UICorner")
+local fruitloops = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local swag = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local ChangelogF = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local changelogT = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local ChangelogB = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
 
 --Properties:
 
@@ -64,27 +77,12 @@ swagmode.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Main.Name = "Main"
 Main.Parent = swagmode
 Main.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
-Main.Position = UDim2.new(0.382771552, 0, 0.214182362, 0)
+Main.Position = UDim2.new(0.280898869, 0, 0.273516655, 0)
 Main.Size = UDim2.new(0, 584, 0, 312)
 Main.Active = true
 Main.Draggable = true
 
 UICorner.Parent = Main
-
-swag.Name = "swag"
-swag.Parent = Main
-swag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-swag.BackgroundTransparency = 1.000
-swag.Size = UDim2.new(0, 198, 0, 45)
-swag.Font = Enum.Font.SourceSans
-swag.Text = "SWAGMODE"
-swag.TextColor3 = Color3.fromRGB(255, 255, 255)
-swag.TextScaled = true
-swag.TextSize = 14.000
-swag.TextWrapped = true
-
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient.Parent = swag
 
 HomeB.Name = "HomeB"
 HomeB.Parent = Main
@@ -177,8 +175,8 @@ TextLabel.TextSize = 14.000
 TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextWrapped = true
 
-UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_2.Parent = TextLabel
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient.Parent = TextLabel
 
 Discord.Name = "Discord"
 Discord.Parent = HomeF
@@ -197,12 +195,11 @@ UICorner_8.Parent = Discord
 
 userPNG.Name = "userPNG"
 userPNG.Parent = Main
-userPNG.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+userPNG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 userPNG.BackgroundTransparency = 1.000
 userPNG.Position = UDim2.new(0.0381624401, 0, 0.662213862, 0)
 userPNG.Size = UDim2.new(0, 100, 0, 94)
 userPNG.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
-userPNG.ImageColor3 = Color3.fromRGB(70, 70, 70)
 
 UICorner_9.Parent = userPNG
 
@@ -323,25 +320,10 @@ PlayerF.Visible = false
 
 UICorner_18.Parent = PlayerF
 
-FruitLoops.Name = "FruitLoops"
-FruitLoops.Parent = PlayerF
-FruitLoops.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-FruitLoops.Position = UDim2.new(0.0322301276, 0, 0.0589280427, 0)
-FruitLoops.Size = UDim2.new(0, 399, 0, 31)
-FruitLoops.Font = Enum.Font.SourceSans
-FruitLoops.Text = "Fruit Loops"
-FruitLoops.TextColor3 = Color3.fromRGB(0, 0, 0)
-FruitLoops.TextScaled = true
-FruitLoops.TextSize = 14.000
-FruitLoops.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-FruitLoops.TextWrapped = true
-
-UICorner_19.Parent = FruitLoops
-
 KillAll.Name = "KillAll"
 KillAll.Parent = PlayerF
 KillAll.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-KillAll.Position = UDim2.new(0.0322301276, 0, 0.219570607, 0)
+KillAll.Position = UDim2.new(0.0322301276, 0, 0.0549119711, 0)
 KillAll.Size = UDim2.new(0, 399, 0, 31)
 KillAll.Font = Enum.Font.SourceSans
 KillAll.Text = "Kill All"
@@ -351,7 +333,7 @@ KillAll.TextSize = 14.000
 KillAll.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 KillAll.TextWrapped = true
 
-UICorner_20.Parent = KillAll
+UICorner_19.Parent = KillAll
 
 SettingsF.Name = "SettingsF"
 SettingsF.Parent = Main
@@ -360,7 +342,7 @@ SettingsF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
 SettingsF.Size = UDim2.new(0, 428, 0, 249)
 SettingsF.Visible = false
 
-UICorner_21.Parent = SettingsF
+UICorner_20.Parent = SettingsF
 
 AntiAFK.Name = "AntiAFK"
 AntiAFK.Parent = SettingsF
@@ -368,14 +350,14 @@ AntiAFK.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
 AntiAFK.Position = UDim2.new(0.0345665775, 0, 0.0549119711, 0)
 AntiAFK.Size = UDim2.new(0, 399, 0, 31)
 AntiAFK.Font = Enum.Font.SourceSans
-AntiAFK.Text = "AntiAFK (remove 20min idle kick)"
+AntiAFK.Text = "AntiAFK (remove 20min idle kick) (ENABLED)"
 AntiAFK.TextColor3 = Color3.fromRGB(0, 0, 0)
 AntiAFK.TextScaled = true
 AntiAFK.TextSize = 14.000
 AntiAFK.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 AntiAFK.TextWrapped = true
 
-UICorner_22.Parent = AntiAFK
+UICorner_21.Parent = AntiAFK
 
 toggleinfo.Name = "toggle info"
 toggleinfo.Parent = SettingsF
@@ -390,11 +372,135 @@ toggleinfo.TextSize = 14.000
 toggleinfo.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 toggleinfo.TextWrapped = true
 
-UICorner_23.Parent = toggleinfo
+UICorner_22.Parent = toggleinfo
+
+FruitLoops.Name = "FruitLoops"
+FruitLoops.Parent = SettingsF
+FruitLoops.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+FruitLoops.Position = UDim2.new(0.0345665775, 0, 0.396277428, 0)
+FruitLoops.Size = UDim2.new(0, 399, 0, 31)
+FruitLoops.Font = Enum.Font.SourceSans
+FruitLoops.Text = "Fruit Loops Mode (fun feature)"
+FruitLoops.TextColor3 = Color3.fromRGB(0, 0, 0)
+FruitLoops.TextScaled = true
+FruitLoops.TextSize = 14.000
+FruitLoops.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+FruitLoops.TextWrapped = true
+
+UICorner_23.Parent = FruitLoops
+
+fruitloops.Name = "fruitloops"
+fruitloops.Parent = Main
+fruitloops.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fruitloops.BackgroundTransparency = 1.000
+fruitloops.Size = UDim2.new(0, 198, 0, 45)
+fruitloops.Visible = false
+fruitloops.Font = Enum.Font.SourceSans
+fruitloops.Text = "FRUITLOOPS"
+fruitloops.TextColor3 = Color3.fromRGB(255, 255, 255)
+fruitloops.TextScaled = true
+fruitloops.TextSize = 14.000
+fruitloops.TextWrapped = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 232, 252)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
+UIGradient_2.Parent = fruitloops
+
+swag.Name = "swag"
+swag.Parent = Main
+swag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+swag.BackgroundTransparency = 1.000
+swag.Size = UDim2.new(0, 198, 0, 45)
+swag.Font = Enum.Font.SourceSans
+swag.Text = "SWAGMODE"
+swag.TextColor3 = Color3.fromRGB(255, 255, 255)
+swag.TextScaled = true
+swag.TextSize = 14.000
+swag.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_3.Parent = swag
+
+ChangelogF.Name = "ChangelogF"
+ChangelogF.Parent = Main
+ChangelogF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+ChangelogF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
+ChangelogF.Size = UDim2.new(0, 428, 0, 249)
+ChangelogF.Visible = false
+
+UICorner_24.Parent = ChangelogF
+
+ScrollingFrame.Parent = ChangelogF
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.Position = UDim2.new(0.0210280381, 0, 0.0281124506, 0)
+ScrollingFrame.Size = UDim2.new(0, 413, 0, 233)
+
+changelogT.Name = "changelogT"
+changelogT.Parent = ScrollingFrame
+changelogT.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+changelogT.Position = UDim2.new(0.0225448832, 0, 0.0155074224, 0)
+changelogT.Size = UDim2.new(0, 374, 0, 31)
+changelogT.Font = Enum.Font.SourceSans
+changelogT.Text = "SWAGMODE V1.01B"
+changelogT.TextColor3 = Color3.fromRGB(0, 0, 0)
+changelogT.TextScaled = true
+changelogT.TextSize = 14.000
+changelogT.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+changelogT.TextWrapped = true
+
+UICorner_25.Parent = changelogT
+
+TextButton.Name = "-"
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.0225448832, 0, 0.0898046121, 0)
+TextButton.Size = UDim2.new(0, 374, 0, 31)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "- improved fast lift"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+TextButton.TextWrapped = true
+
+UICorner_26.Parent = TextButton
+
+TextButton_2.Name = "-"
+TextButton_2.Parent = ScrollingFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.Position = UDim2.new(0.0225448832, 0, 0.164101809, 0)
+TextButton_2.Size = UDim2.new(0, 374, 0, 31)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "- improved some other shit no one cares about lol"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+TextButton_2.TextWrapped = true
+
+UICorner_27.Parent = TextButton_2
+
+ChangelogB.Name = "ChangelogB"
+ChangelogB.Parent = Main
+ChangelogB.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+ChangelogB.Position = UDim2.new(0.539079428, 0, 0.0466481708, 0)
+ChangelogB.Size = UDim2.new(0, 122, 0, 28)
+ChangelogB.Font = Enum.Font.SourceSans
+ChangelogB.Text = "Changelog"
+ChangelogB.TextColor3 = Color3.fromRGB(180, 180, 180)
+ChangelogB.TextScaled = true
+ChangelogB.TextSize = 14.000
+ChangelogB.TextStrokeColor3 = Color3.fromRGB(180, 180, 180)
+ChangelogB.TextWrapped = true
+
+UICorner_28.Parent = ChangelogB
 
 -- Scripts:
 
-local function KOMRPUP_fake_script() -- HomeB.LocalScript 
+local function AEITEH_fake_script() -- HomeB.LocalScript 
 	local script = Instance.new('LocalScript', HomeB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -402,6 +508,7 @@ local function KOMRPUP_fake_script() -- HomeB.LocalScript
 	local SkilssF = script.Parent.Parent.SkillsF
 	local PlayerF = script.Parent.Parent.PlayerF
 	local SettingsF = script.Parent.Parent.SettingsF
+	local ChangelogF = script.Parent.Parent.ChangelogF
 
 	script.Parent.MouseButton1Click:Connect(function()
 		HomeF.Visible = true
@@ -409,10 +516,11 @@ local function KOMRPUP_fake_script() -- HomeB.LocalScript
 		SkilssF.Visible = false
 		PlayerF.Visible = false
 		SettingsF.Visible = false
+		ChangelogF.Visible = false
 	end)
 end
-coroutine.wrap(KOMRPUP_fake_script)()
-local function HSVDQZ_fake_script() -- MuscleB.LocalScript 
+coroutine.wrap(AEITEH_fake_script)()
+local function TNPQS_fake_script() -- MuscleB.LocalScript 
 	local script = Instance.new('LocalScript', MuscleB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -420,6 +528,7 @@ local function HSVDQZ_fake_script() -- MuscleB.LocalScript
 	local SkilssF = script.Parent.Parent.SkillsF
 	local PlayerF = script.Parent.Parent.PlayerF
 	local SettingsF = script.Parent.Parent.SettingsF
+	local ChangelogF = script.Parent.Parent.ChangelogF
 
 	script.Parent.MouseButton1Click:Connect(function()
 		HomeF.Visible = false
@@ -427,10 +536,11 @@ local function HSVDQZ_fake_script() -- MuscleB.LocalScript
 		SkilssF.Visible = false
 		PlayerF.Visible = false
 		SettingsF.Visible = false
+		ChangelogF.Visible = false
 	end)
 end
-coroutine.wrap(HSVDQZ_fake_script)()
-local function OMFAKQ_fake_script() -- SkillsB.LocalScript 
+coroutine.wrap(TNPQS_fake_script)()
+local function ZEZT_fake_script() -- SkillsB.LocalScript 
 	local script = Instance.new('LocalScript', SkillsB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -438,6 +548,7 @@ local function OMFAKQ_fake_script() -- SkillsB.LocalScript
 	local SkilssF = script.Parent.Parent.SkillsF
 	local PlayerF = script.Parent.Parent.PlayerF
 	local SettingsF = script.Parent.Parent.SettingsF
+	local ChangelogF = script.Parent.Parent.ChangelogF
 
 	script.Parent.MouseButton1Click:Connect(function()
 		HomeF.Visible = false
@@ -445,10 +556,11 @@ local function OMFAKQ_fake_script() -- SkillsB.LocalScript
 		SkilssF.Visible = true
 		PlayerF.Visible = false
 		SettingsF.Visible = false
+		ChangelogF.Visible = false
 	end)
 end
-coroutine.wrap(OMFAKQ_fake_script)()
-local function IQMFL_fake_script() -- PlayerB.LocalScript 
+coroutine.wrap(ZEZT_fake_script)()
+local function UGFL_fake_script() -- PlayerB.LocalScript 
 	local script = Instance.new('LocalScript', PlayerB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -456,6 +568,7 @@ local function IQMFL_fake_script() -- PlayerB.LocalScript
 	local SkilssF = script.Parent.Parent.SkillsF
 	local PlayerF = script.Parent.Parent.PlayerF
 	local SettingsF = script.Parent.Parent.SettingsF
+	local ChangelogF = script.Parent.Parent.ChangelogF
 
 	script.Parent.MouseButton1Click:Connect(function()
 		HomeF.Visible = false
@@ -463,10 +576,11 @@ local function IQMFL_fake_script() -- PlayerB.LocalScript
 		SkilssF.Visible = false
 		PlayerF.Visible = true
 		SettingsF.Visible = false
+		ChangelogF.Visible = false
 	end)
 end
-coroutine.wrap(IQMFL_fake_script)()
-local function LZHF_fake_script() -- SettingsB.LocalScript 
+coroutine.wrap(UGFL_fake_script)()
+local function ZZPNDBX_fake_script() -- SettingsB.LocalScript 
 	local script = Instance.new('LocalScript', SettingsB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -474,6 +588,7 @@ local function LZHF_fake_script() -- SettingsB.LocalScript
 	local SkilssF = script.Parent.Parent.SkillsF
 	local PlayerF = script.Parent.Parent.PlayerF
 	local SettingsF = script.Parent.Parent.SettingsF
+	local ChangelogF = script.Parent.Parent.ChangelogF
 
 	script.Parent.MouseButton1Click:Connect(function()
 		HomeF.Visible = false
@@ -481,10 +596,11 @@ local function LZHF_fake_script() -- SettingsB.LocalScript
 		SkilssF.Visible = false
 		PlayerF.Visible = false
 		SettingsF.Visible = true
+		ChangelogF.Visible = false
 	end)
 end
-coroutine.wrap(LZHF_fake_script)()
-local function JXLKDEZ_fake_script() -- userPNG.LocalScript 
+coroutine.wrap(ZZPNDBX_fake_script)()
+local function YRNH_fake_script() -- userPNG.LocalScript 
 	local script = Instance.new('LocalScript', userPNG)
 
 	local Players = game:GetService("Players")
@@ -499,8 +615,8 @@ local function JXLKDEZ_fake_script() -- userPNG.LocalScript
 	local imageLabel = script.Parent
 	imageLabel.Image = content
 end
-coroutine.wrap(JXLKDEZ_fake_script)()
-local function DBCAA_fake_script() -- AutoClick.LocalScript 
+coroutine.wrap(YRNH_fake_script)()
+local function AAYDLX_fake_script() -- AutoClick.LocalScript 
 	local script = Instance.new('LocalScript', AutoClick)
 
 	local AutoFarm = script.Parent
@@ -523,8 +639,8 @@ local function DBCAA_fake_script() -- AutoClick.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DBCAA_fake_script)()
-local function VYOJH_fake_script() -- AutoSell.LocalScript 
+coroutine.wrap(AAYDLX_fake_script)()
+local function HYZRO_fake_script() -- AutoSell.LocalScript 
 	local script = Instance.new('LocalScript', AutoSell)
 
 	local AUTOSELL = script.Parent
@@ -542,20 +658,20 @@ local function VYOJH_fake_script() -- AutoSell.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VYOJH_fake_script)()
-local function UJVR_fake_script() -- FastLift.LocalScript 
+coroutine.wrap(HYZRO_fake_script)()
+local function NEADZEX_fake_script() -- FastLift.LocalScript 
 	local script = Instance.new('LocalScript', FastLift)
 
 	local FastLift = script.Parent
 
 	FastLift.MouseButton1Click:connect(function()
-		while wait() do
+		while wait(0.1) do
 			game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"GainMuscle"})
 		end
 	end)
 end
-coroutine.wrap(UJVR_fake_script)()
-local function GREQ_fake_script() -- Poseidon.LocalScript 
+coroutine.wrap(NEADZEX_fake_script)()
+local function MQEZO_fake_script() -- Poseidon.LocalScript 
 	local script = Instance.new('LocalScript', Poseidon)
 
 	local PoseidonB = script.Parent
@@ -578,8 +694,8 @@ local function GREQ_fake_script() -- Poseidon.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GREQ_fake_script)()
-local function YGQVM_fake_script() -- Cronus.LocalScript 
+coroutine.wrap(MQEZO_fake_script)()
+local function DSUTPZP_fake_script() -- Cronus.LocalScript 
 	local script = Instance.new('LocalScript', Cronus)
 
 	local CronusB = script.Parent
@@ -602,8 +718,8 @@ local function YGQVM_fake_script() -- Cronus.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YGQVM_fake_script)()
-local function LDERKN_fake_script() -- Zeus.LocalScript 
+coroutine.wrap(DSUTPZP_fake_script)()
+local function PNXAB_fake_script() -- Zeus.LocalScript 
 	local script = Instance.new('LocalScript', Zeus)
 
 	local ZeusB = script.Parent
@@ -626,16 +742,8 @@ local function LDERKN_fake_script() -- Zeus.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LDERKN_fake_script)()
-local function YPHJQ_fake_script() -- FruitLoops.LocalScript 
-	local script = Instance.new('LocalScript', FruitLoops)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.swag.Text = "FRUITLOOPS"
-	end)
-end
-coroutine.wrap(YPHJQ_fake_script)()
-local function YHIU_fake_script() -- KillAll.LocalScript 
+coroutine.wrap(PNXAB_fake_script)()
+local function VCIW_fake_script() -- KillAll.LocalScript 
 	local script = Instance.new('LocalScript', KillAll)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -644,21 +752,28 @@ local function YHIU_fake_script() -- KillAll.LocalScript
 		script.Parent.Text = "Kill All"
 	end)
 end
-coroutine.wrap(YHIU_fake_script)()
-local function QHKXT_fake_script() -- AntiAFK.n 
+coroutine.wrap(VCIW_fake_script)()
+local function JDBPLL_fake_script() -- AntiAFK.n 
 	local script = Instance.new('LocalScript', AntiAFK)
 
-	script.Parent.MouseButton1Click:Connect(function()
-		local vu = game:GetService("VirtualUser")
-		game:GetService("Players").LocalPlayer.Idled:connect(function()
-			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-			wait(1)
-			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-		end)
+	local vu = game:GetService("VirtualUser")
+	game:GetService("Players").LocalPlayer.Idled:connect(function()
+		vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		wait(1)
+		vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 	end)
 end
-coroutine.wrap(QHKXT_fake_script)()
-local function XWUYYFS_fake_script() -- Main.togglegui 
+coroutine.wrap(JDBPLL_fake_script)()
+local function ACYG_fake_script() -- FruitLoops.LocalScript 
+	local script = Instance.new('LocalScript', FruitLoops)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.swag.Visible = false
+		script.Parent.Parent.Parent.fruitloops.Visible = true
+	end)
+end
+coroutine.wrap(ACYG_fake_script)()
+local function ZXQORQ_fake_script() -- Main.togglegui 
 	local script = Instance.new('LocalScript', Main)
 
 	local UIS = game:GetService("UserInputService")
@@ -670,4 +785,24 @@ local function XWUYYFS_fake_script() -- Main.togglegui
 		end
 	end)
 end
-coroutine.wrap(XWUYYFS_fake_script)()
+coroutine.wrap(ZXQORQ_fake_script)()
+local function EIMB_fake_script() -- ChangelogB.LocalScript 
+	local script = Instance.new('LocalScript', ChangelogB)
+
+	local HomeF = script.Parent.Parent.HomeF
+	local MuscleF = script.Parent.Parent.MuscleF
+	local SkilssF = script.Parent.Parent.SkillsF
+	local PlayerF = script.Parent.Parent.PlayerF
+	local SettingsF = script.Parent.Parent.SettingsF
+	local ChangelogF = script.Parent.Parent.ChangelogF
+
+	script.Parent.MouseButton1Click:Connect(function()
+		HomeF.Visible = false
+		MuscleF.Visible = false
+		SkilssF.Visible = false
+		PlayerF.Visible = false
+		SettingsF.Visible = false
+		ChangelogF.Visible = true
+	end)
+end
+coroutine.wrap(EIMB_fake_script)()
