@@ -3,7 +3,7 @@
 
 -- Instances:
 
-local swagmode = Instance.new("ScreenGui")
+local aijbgflihsbglsg = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local HomeB = Instance.new("TextButton")
@@ -12,70 +12,55 @@ local MuscleB = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local SkillsB = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
-local PlayerB = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
 local SettingsB = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
-local HomeF = Instance.new("Frame")
-local UICorner_7 = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
-local UIGradient = Instance.new("UIGradient")
-local Discord = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
 local userPNG = Instance.new("ImageLabel")
-local UICorner_9 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
 local MuscleF = Instance.new("Frame")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 local AutoClick = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local AutoSell = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local FastLift = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local SkillsF = Instance.new("Frame")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local Poseidon = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local Cronus = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local Zeus = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
-local PlayerF = Instance.new("Frame")
-local UICorner_18 = Instance.new("UICorner")
-local KillAll = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_14 = Instance.new("UICorner")
 local SettingsF = Instance.new("Frame")
-local UICorner_20 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
 local AntiAFK = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local toggleinfo = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
-local FruitLoops = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
-local fruitloops = Instance.new("TextLabel")
-local UIGradient_2 = Instance.new("UIGradient")
-local swag = Instance.new("TextLabel")
-local UIGradient_3 = Instance.new("UIGradient")
-local ChangelogF = Instance.new("Frame")
-local UICorner_24 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
+local dope = Instance.new("TextLabel")
+local HomeF = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local changelogT = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
 local TextButton = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local TextButton_2 = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
-local ChangelogB = Instance.new("TextButton")
-local UICorner_28 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
 
 --Properties:
 
-swagmode.Name = "swagmode"
-swagmode.Parent = game.CoreGui
-swagmode.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+aijbgflihsbglsg.Name = "aijbgflihsbglsg"
+aijbgflihsbglsg.Parent = game.CoreGui
+aijbgflihsbglsg.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Main.Name = "Main"
-Main.Parent = swagmode
+Main.Parent = aijbgflihsbglsg
 Main.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
 Main.Position = UDim2.new(0.280898869, 0, 0.273516655, 0)
 Main.Size = UDim2.new(0, 584, 0, 312)
@@ -126,24 +111,10 @@ SkillsB.TextWrapped = true
 
 UICorner_4.Parent = SkillsB
 
-PlayerB.Name = "PlayerB"
-PlayerB.Parent = Main
-PlayerB.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
-PlayerB.Position = UDim2.new(0.0154109588, 0, 0.528846145, 0)
-PlayerB.Size = UDim2.new(0, 127, 0, 31)
-PlayerB.Font = Enum.Font.SourceSans
-PlayerB.Text = "Player"
-PlayerB.TextColor3 = Color3.fromRGB(180, 180, 180)
-PlayerB.TextScaled = true
-PlayerB.TextSize = 14.000
-PlayerB.TextWrapped = true
-
-UICorner_5.Parent = PlayerB
-
 SettingsB.Name = "SettingsB"
 SettingsB.Parent = Main
 SettingsB.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
-SettingsB.Position = UDim2.new(0.760273993, 0, 0.0448717996, 0)
+SettingsB.Position = UDim2.new(0.0154109597, 0, 0.535256386, 0)
 SettingsB.Size = UDim2.new(0, 127, 0, 31)
 SettingsB.Font = Enum.Font.SourceSans
 SettingsB.Text = "Settings"
@@ -152,46 +123,7 @@ SettingsB.TextScaled = true
 SettingsB.TextSize = 14.000
 SettingsB.TextWrapped = true
 
-UICorner_6.Parent = SettingsB
-
-HomeF.Name = "HomeF"
-HomeF.Parent = Main
-HomeF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-HomeF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
-HomeF.Size = UDim2.new(0, 428, 0, 249)
-
-UICorner_7.Parent = HomeF
-
-TextLabel.Parent = HomeF
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(0.0700934604, 0, 0.076305218, 0)
-TextLabel.Size = UDim2.new(0, 368, 0, 80)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Play with swag"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextWrapped = true
-
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient.Parent = TextLabel
-
-Discord.Name = "Discord"
-Discord.Parent = HomeF
-Discord.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-Discord.Position = UDim2.new(0.0322301276, 0, 0.45250234, 0)
-Discord.Size = UDim2.new(0, 399, 0, 31)
-Discord.Font = Enum.Font.SourceSans
-Discord.Text = "Discord: Tkb#4439"
-Discord.TextColor3 = Color3.fromRGB(0, 0, 0)
-Discord.TextScaled = true
-Discord.TextSize = 14.000
-Discord.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-Discord.TextWrapped = true
-
-UICorner_8.Parent = Discord
+UICorner_5.Parent = SettingsB
 
 userPNG.Name = "userPNG"
 userPNG.Parent = Main
@@ -201,7 +133,7 @@ userPNG.Position = UDim2.new(0.0381624401, 0, 0.662213862, 0)
 userPNG.Size = UDim2.new(0, 100, 0, 94)
 userPNG.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 
-UICorner_9.Parent = userPNG
+UICorner_6.Parent = userPNG
 
 MuscleF.Name = "MuscleF"
 MuscleF.Parent = Main
@@ -210,7 +142,7 @@ MuscleF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
 MuscleF.Size = UDim2.new(0, 428, 0, 249)
 MuscleF.Visible = false
 
-UICorner_10.Parent = MuscleF
+UICorner_7.Parent = MuscleF
 
 AutoClick.Name = "AutoClick"
 AutoClick.Parent = MuscleF
@@ -225,7 +157,7 @@ AutoClick.TextSize = 14.000
 AutoClick.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 AutoClick.TextWrapped = true
 
-UICorner_11.Parent = AutoClick
+UICorner_8.Parent = AutoClick
 
 AutoSell.Name = "AutoSell"
 AutoSell.Parent = MuscleF
@@ -240,7 +172,7 @@ AutoSell.TextSize = 14.000
 AutoSell.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 AutoSell.TextWrapped = true
 
-UICorner_12.Parent = AutoSell
+UICorner_9.Parent = AutoSell
 
 FastLift.Name = "FastLift"
 FastLift.Parent = MuscleF
@@ -255,7 +187,7 @@ FastLift.TextSize = 14.000
 FastLift.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 FastLift.TextWrapped = true
 
-UICorner_13.Parent = FastLift
+UICorner_10.Parent = FastLift
 
 SkillsF.Name = "SkillsF"
 SkillsF.Parent = Main
@@ -264,7 +196,7 @@ SkillsF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
 SkillsF.Size = UDim2.new(0, 428, 0, 249)
 SkillsF.Visible = false
 
-UICorner_14.Parent = SkillsF
+UICorner_11.Parent = SkillsF
 
 Poseidon.Name = "Poseidon"
 Poseidon.Parent = SkillsF
@@ -279,7 +211,7 @@ Poseidon.TextSize = 14.000
 Poseidon.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 Poseidon.TextWrapped = true
 
-UICorner_15.Parent = Poseidon
+UICorner_12.Parent = Poseidon
 
 Cronus.Name = "Cronus"
 Cronus.Parent = SkillsF
@@ -294,7 +226,7 @@ Cronus.TextSize = 14.000
 Cronus.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 Cronus.TextWrapped = true
 
-UICorner_16.Parent = Cronus
+UICorner_13.Parent = Cronus
 
 Zeus.Name = "Zeus"
 Zeus.Parent = SkillsF
@@ -309,31 +241,7 @@ Zeus.TextSize = 14.000
 Zeus.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 Zeus.TextWrapped = true
 
-UICorner_17.Parent = Zeus
-
-PlayerF.Name = "PlayerF"
-PlayerF.Parent = Main
-PlayerF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-PlayerF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
-PlayerF.Size = UDim2.new(0, 428, 0, 249)
-PlayerF.Visible = false
-
-UICorner_18.Parent = PlayerF
-
-KillAll.Name = "KillAll"
-KillAll.Parent = PlayerF
-KillAll.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-KillAll.Position = UDim2.new(0.0322301276, 0, 0.0549119711, 0)
-KillAll.Size = UDim2.new(0, 399, 0, 31)
-KillAll.Font = Enum.Font.SourceSans
-KillAll.Text = "Kill All"
-KillAll.TextColor3 = Color3.fromRGB(0, 0, 0)
-KillAll.TextScaled = true
-KillAll.TextSize = 14.000
-KillAll.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-KillAll.TextWrapped = true
-
-UICorner_19.Parent = KillAll
+UICorner_14.Parent = Zeus
 
 SettingsF.Name = "SettingsF"
 SettingsF.Parent = Main
@@ -342,7 +250,7 @@ SettingsF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
 SettingsF.Size = UDim2.new(0, 428, 0, 249)
 SettingsF.Visible = false
 
-UICorner_20.Parent = SettingsF
+UICorner_15.Parent = SettingsF
 
 AntiAFK.Name = "AntiAFK"
 AntiAFK.Parent = SettingsF
@@ -357,7 +265,7 @@ AntiAFK.TextSize = 14.000
 AntiAFK.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 AntiAFK.TextWrapped = true
 
-UICorner_21.Parent = AntiAFK
+UICorner_16.Parent = AntiAFK
 
 toggleinfo.Name = "toggle info"
 toggleinfo.Parent = SettingsF
@@ -372,64 +280,29 @@ toggleinfo.TextSize = 14.000
 toggleinfo.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 toggleinfo.TextWrapped = true
 
-UICorner_22.Parent = toggleinfo
+UICorner_17.Parent = toggleinfo
 
-FruitLoops.Name = "FruitLoops"
-FruitLoops.Parent = SettingsF
-FruitLoops.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-FruitLoops.Position = UDim2.new(0.0345665775, 0, 0.396277428, 0)
-FruitLoops.Size = UDim2.new(0, 399, 0, 31)
-FruitLoops.Font = Enum.Font.SourceSans
-FruitLoops.Text = "Fruit Loops Mode (fun feature)"
-FruitLoops.TextColor3 = Color3.fromRGB(0, 0, 0)
-FruitLoops.TextScaled = true
-FruitLoops.TextSize = 14.000
-FruitLoops.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-FruitLoops.TextWrapped = true
+dope.Name = "dope"
+dope.Parent = Main
+dope.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dope.BackgroundTransparency = 1.000
+dope.Size = UDim2.new(0, 143, 0, 45)
+dope.Font = Enum.Font.SourceSans
+dope.Text = "DOPE"
+dope.TextColor3 = Color3.fromRGB(255, 255, 255)
+dope.TextScaled = true
+dope.TextSize = 14.000
+dope.TextWrapped = true
 
-UICorner_23.Parent = FruitLoops
+HomeF.Name = "HomeF"
+HomeF.Parent = Main
+HomeF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+HomeF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
+HomeF.Size = UDim2.new(0, 428, 0, 249)
 
-fruitloops.Name = "fruitloops"
-fruitloops.Parent = Main
-fruitloops.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-fruitloops.BackgroundTransparency = 1.000
-fruitloops.Size = UDim2.new(0, 198, 0, 45)
-fruitloops.Visible = false
-fruitloops.Font = Enum.Font.SourceSans
-fruitloops.Text = "FRUITLOOPS"
-fruitloops.TextColor3 = Color3.fromRGB(255, 255, 255)
-fruitloops.TextScaled = true
-fruitloops.TextSize = 14.000
-fruitloops.TextWrapped = true
+UICorner_18.Parent = HomeF
 
-UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 232, 252)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
-UIGradient_2.Parent = fruitloops
-
-swag.Name = "swag"
-swag.Parent = Main
-swag.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-swag.BackgroundTransparency = 1.000
-swag.Size = UDim2.new(0, 198, 0, 45)
-swag.Font = Enum.Font.SourceSans
-swag.Text = "SWAGMODE"
-swag.TextColor3 = Color3.fromRGB(255, 255, 255)
-swag.TextScaled = true
-swag.TextSize = 14.000
-swag.TextWrapped = true
-
-UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_3.Parent = swag
-
-ChangelogF.Name = "ChangelogF"
-ChangelogF.Parent = Main
-ChangelogF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-ChangelogF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
-ChangelogF.Size = UDim2.new(0, 428, 0, 249)
-ChangelogF.Visible = false
-
-UICorner_24.Parent = ChangelogF
-
-ScrollingFrame.Parent = ChangelogF
+ScrollingFrame.Parent = HomeF
 ScrollingFrame.Active = true
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScrollingFrame.BackgroundTransparency = 1.000
@@ -442,30 +315,30 @@ changelogT.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
 changelogT.Position = UDim2.new(0.0225448832, 0, 0.0155074224, 0)
 changelogT.Size = UDim2.new(0, 374, 0, 31)
 changelogT.Font = Enum.Font.SourceSans
-changelogT.Text = "SWAGMODE V1.01B"
+changelogT.Text = "DOPE V2.56C"
 changelogT.TextColor3 = Color3.fromRGB(0, 0, 0)
 changelogT.TextScaled = true
 changelogT.TextSize = 14.000
 changelogT.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 changelogT.TextWrapped = true
 
-UICorner_25.Parent = changelogT
+UICorner_19.Parent = changelogT
 
 TextButton.Name = "-"
 TextButton.Parent = ScrollingFrame
 TextButton.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
 TextButton.BackgroundTransparency = 1.000
-TextButton.Position = UDim2.new(0.0225448832, 0, 0.0898046121, 0)
+TextButton.Position = UDim2.new(0.0225448832, 0, 0.101852804, 0)
 TextButton.Size = UDim2.new(0, 374, 0, 31)
 TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "- improved fast lift"
+TextButton.Text = "- made changes to fastlift (more legit, for lb)"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextScaled = true
 TextButton.TextSize = 14.000
 TextButton.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 TextButton.TextWrapped = true
 
-UICorner_26.Parent = TextButton
+UICorner_20.Parent = TextButton
 
 TextButton_2.Name = "-"
 TextButton_2.Parent = ScrollingFrame
@@ -474,133 +347,114 @@ TextButton_2.BackgroundTransparency = 1.000
 TextButton_2.Position = UDim2.new(0.0225448832, 0, 0.164101809, 0)
 TextButton_2.Size = UDim2.new(0, 374, 0, 31)
 TextButton_2.Font = Enum.Font.SourceSans
-TextButton_2.Text = "- improved some other shit no one cares about lol"
+TextButton_2.Text = "- improved performance"
 TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.TextScaled = true
 TextButton_2.TextSize = 14.000
 TextButton_2.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 TextButton_2.TextWrapped = true
 
-UICorner_27.Parent = TextButton_2
+UICorner_21.Parent = TextButton_2
 
-ChangelogB.Name = "ChangelogB"
-ChangelogB.Parent = Main
-ChangelogB.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
-ChangelogB.Position = UDim2.new(0.539079428, 0, 0.0466481708, 0)
-ChangelogB.Size = UDim2.new(0, 122, 0, 28)
-ChangelogB.Font = Enum.Font.SourceSans
-ChangelogB.Text = "Changelog"
-ChangelogB.TextColor3 = Color3.fromRGB(180, 180, 180)
-ChangelogB.TextScaled = true
-ChangelogB.TextSize = 14.000
-ChangelogB.TextStrokeColor3 = Color3.fromRGB(180, 180, 180)
-ChangelogB.TextWrapped = true
+TextButton_3.Name = "-"
+TextButton_3.Parent = ScrollingFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.Position = UDim2.new(0.0225448832, 0, 0.232374907, 0)
+TextButton_3.Size = UDim2.new(0, 374, 0, 31)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "- removed fruitloops :("
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+TextButton_3.TextWrapped = true
 
-UICorner_28.Parent = ChangelogB
+UICorner_22.Parent = TextButton_3
+
+TextButton_4.Name = "-"
+TextButton_4.Parent = ScrollingFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.Position = UDim2.new(0.0225448832, 0, 0.294623911, 0)
+TextButton_4.Size = UDim2.new(0, 374, 0, 31)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "- removed player tab"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+TextButton_4.TextWrapped = true
+
+UICorner_23.Parent = TextButton_4
 
 -- Scripts:
 
-local function AEITEH_fake_script() -- HomeB.LocalScript 
+local function RDLWYDK_fake_script() -- HomeB.LocalScript 
 	local script = Instance.new('LocalScript', HomeB)
 
 	local HomeF = script.Parent.Parent.HomeF
 	local MuscleF = script.Parent.Parent.MuscleF
 	local SkilssF = script.Parent.Parent.SkillsF
-	local PlayerF = script.Parent.Parent.PlayerF
 	local SettingsF = script.Parent.Parent.SettingsF
-	local ChangelogF = script.Parent.Parent.ChangelogF
 
 	script.Parent.MouseButton1Click:Connect(function()
 		HomeF.Visible = true
 		MuscleF.Visible = false
 		SkilssF.Visible = false
-		PlayerF.Visible = false
 		SettingsF.Visible = false
-		ChangelogF.Visible = false
 	end)
 end
-coroutine.wrap(AEITEH_fake_script)()
-local function TNPQS_fake_script() -- MuscleB.LocalScript 
+coroutine.wrap(RDLWYDK_fake_script)()
+local function YBGTHK_fake_script() -- MuscleB.LocalScript 
 	local script = Instance.new('LocalScript', MuscleB)
 
 	local HomeF = script.Parent.Parent.HomeF
 	local MuscleF = script.Parent.Parent.MuscleF
 	local SkilssF = script.Parent.Parent.SkillsF
-	local PlayerF = script.Parent.Parent.PlayerF
 	local SettingsF = script.Parent.Parent.SettingsF
-	local ChangelogF = script.Parent.Parent.ChangelogF
 
 	script.Parent.MouseButton1Click:Connect(function()
 		HomeF.Visible = false
 		MuscleF.Visible = true
 		SkilssF.Visible = false
-		PlayerF.Visible = false
 		SettingsF.Visible = false
-		ChangelogF.Visible = false
 	end)
 end
-coroutine.wrap(TNPQS_fake_script)()
-local function ZEZT_fake_script() -- SkillsB.LocalScript 
+coroutine.wrap(YBGTHK_fake_script)()
+local function TZEJ_fake_script() -- SkillsB.LocalScript 
 	local script = Instance.new('LocalScript', SkillsB)
 
 	local HomeF = script.Parent.Parent.HomeF
 	local MuscleF = script.Parent.Parent.MuscleF
 	local SkilssF = script.Parent.Parent.SkillsF
-	local PlayerF = script.Parent.Parent.PlayerF
 	local SettingsF = script.Parent.Parent.SettingsF
-	local ChangelogF = script.Parent.Parent.ChangelogF
 
 	script.Parent.MouseButton1Click:Connect(function()
 		HomeF.Visible = false
 		MuscleF.Visible = false
 		SkilssF.Visible = true
-		PlayerF.Visible = false
 		SettingsF.Visible = false
-		ChangelogF.Visible = false
 	end)
 end
-coroutine.wrap(ZEZT_fake_script)()
-local function UGFL_fake_script() -- PlayerB.LocalScript 
-	local script = Instance.new('LocalScript', PlayerB)
-
-	local HomeF = script.Parent.Parent.HomeF
-	local MuscleF = script.Parent.Parent.MuscleF
-	local SkilssF = script.Parent.Parent.SkillsF
-	local PlayerF = script.Parent.Parent.PlayerF
-	local SettingsF = script.Parent.Parent.SettingsF
-	local ChangelogF = script.Parent.Parent.ChangelogF
-
-	script.Parent.MouseButton1Click:Connect(function()
-		HomeF.Visible = false
-		MuscleF.Visible = false
-		SkilssF.Visible = false
-		PlayerF.Visible = true
-		SettingsF.Visible = false
-		ChangelogF.Visible = false
-	end)
-end
-coroutine.wrap(UGFL_fake_script)()
-local function ZZPNDBX_fake_script() -- SettingsB.LocalScript 
+coroutine.wrap(TZEJ_fake_script)()
+local function QOXYH_fake_script() -- SettingsB.LocalScript 
 	local script = Instance.new('LocalScript', SettingsB)
 
 	local HomeF = script.Parent.Parent.HomeF
 	local MuscleF = script.Parent.Parent.MuscleF
 	local SkilssF = script.Parent.Parent.SkillsF
-	local PlayerF = script.Parent.Parent.PlayerF
 	local SettingsF = script.Parent.Parent.SettingsF
-	local ChangelogF = script.Parent.Parent.ChangelogF
 
 	script.Parent.MouseButton1Click:Connect(function()
 		HomeF.Visible = false
 		MuscleF.Visible = false
 		SkilssF.Visible = false
-		PlayerF.Visible = false
 		SettingsF.Visible = true
-		ChangelogF.Visible = false
 	end)
 end
-coroutine.wrap(ZZPNDBX_fake_script)()
-local function YRNH_fake_script() -- userPNG.LocalScript 
+coroutine.wrap(QOXYH_fake_script)()
+local function VNHDH_fake_script() -- userPNG.LocalScript 
 	local script = Instance.new('LocalScript', userPNG)
 
 	local Players = game:GetService("Players")
@@ -615,8 +469,8 @@ local function YRNH_fake_script() -- userPNG.LocalScript
 	local imageLabel = script.Parent
 	imageLabel.Image = content
 end
-coroutine.wrap(YRNH_fake_script)()
-local function AAYDLX_fake_script() -- AutoClick.LocalScript 
+coroutine.wrap(VNHDH_fake_script)()
+local function QQNFZIU_fake_script() -- AutoClick.LocalScript 
 	local script = Instance.new('LocalScript', AutoClick)
 
 	local AutoFarm = script.Parent
@@ -639,8 +493,8 @@ local function AAYDLX_fake_script() -- AutoClick.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AAYDLX_fake_script)()
-local function HYZRO_fake_script() -- AutoSell.LocalScript 
+coroutine.wrap(QQNFZIU_fake_script)()
+local function GYOVNS_fake_script() -- AutoSell.LocalScript 
 	local script = Instance.new('LocalScript', AutoSell)
 
 	local AUTOSELL = script.Parent
@@ -658,8 +512,8 @@ local function HYZRO_fake_script() -- AutoSell.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HYZRO_fake_script)()
-local function NEADZEX_fake_script() -- FastLift.LocalScript 
+coroutine.wrap(GYOVNS_fake_script)()
+local function XRAEA_fake_script() -- FastLift.LocalScript 
 	local script = Instance.new('LocalScript', FastLift)
 
 	local FastLift = script.Parent
@@ -670,8 +524,8 @@ local function NEADZEX_fake_script() -- FastLift.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NEADZEX_fake_script)()
-local function MQEZO_fake_script() -- Poseidon.LocalScript 
+coroutine.wrap(XRAEA_fake_script)()
+local function FZQYD_fake_script() -- Poseidon.LocalScript 
 	local script = Instance.new('LocalScript', Poseidon)
 
 	local PoseidonB = script.Parent
@@ -694,8 +548,8 @@ local function MQEZO_fake_script() -- Poseidon.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MQEZO_fake_script)()
-local function DSUTPZP_fake_script() -- Cronus.LocalScript 
+coroutine.wrap(FZQYD_fake_script)()
+local function KPMPFCC_fake_script() -- Cronus.LocalScript 
 	local script = Instance.new('LocalScript', Cronus)
 
 	local CronusB = script.Parent
@@ -718,8 +572,8 @@ local function DSUTPZP_fake_script() -- Cronus.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DSUTPZP_fake_script)()
-local function PNXAB_fake_script() -- Zeus.LocalScript 
+coroutine.wrap(KPMPFCC_fake_script)()
+local function PSOXU_fake_script() -- Zeus.LocalScript 
 	local script = Instance.new('LocalScript', Zeus)
 
 	local ZeusB = script.Parent
@@ -742,18 +596,8 @@ local function PNXAB_fake_script() -- Zeus.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PNXAB_fake_script)()
-local function VCIW_fake_script() -- KillAll.LocalScript 
-	local script = Instance.new('LocalScript', KillAll)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Text = "in work"
-		wait(3)
-		script.Parent.Text = "Kill All"
-	end)
-end
-coroutine.wrap(VCIW_fake_script)()
-local function JDBPLL_fake_script() -- AntiAFK.n 
+coroutine.wrap(PSOXU_fake_script)()
+local function IDLDY_fake_script() -- AntiAFK.n 
 	local script = Instance.new('LocalScript', AntiAFK)
 
 	local vu = game:GetService("VirtualUser")
@@ -763,17 +607,8 @@ local function JDBPLL_fake_script() -- AntiAFK.n
 		vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 	end)
 end
-coroutine.wrap(JDBPLL_fake_script)()
-local function ACYG_fake_script() -- FruitLoops.LocalScript 
-	local script = Instance.new('LocalScript', FruitLoops)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.swag.Visible = false
-		script.Parent.Parent.Parent.fruitloops.Visible = true
-	end)
-end
-coroutine.wrap(ACYG_fake_script)()
-local function ZXQORQ_fake_script() -- Main.togglegui 
+coroutine.wrap(IDLDY_fake_script)()
+local function LITNDJ_fake_script() -- Main.togglegui 
 	local script = Instance.new('LocalScript', Main)
 
 	local UIS = game:GetService("UserInputService")
@@ -785,24 +620,4 @@ local function ZXQORQ_fake_script() -- Main.togglegui
 		end
 	end)
 end
-coroutine.wrap(ZXQORQ_fake_script)()
-local function EIMB_fake_script() -- ChangelogB.LocalScript 
-	local script = Instance.new('LocalScript', ChangelogB)
-
-	local HomeF = script.Parent.Parent.HomeF
-	local MuscleF = script.Parent.Parent.MuscleF
-	local SkilssF = script.Parent.Parent.SkillsF
-	local PlayerF = script.Parent.Parent.PlayerF
-	local SettingsF = script.Parent.Parent.SettingsF
-	local ChangelogF = script.Parent.Parent.ChangelogF
-
-	script.Parent.MouseButton1Click:Connect(function()
-		HomeF.Visible = false
-		MuscleF.Visible = false
-		SkilssF.Visible = false
-		PlayerF.Visible = false
-		SettingsF.Visible = false
-		ChangelogF.Visible = true
-	end)
-end
-coroutine.wrap(EIMB_fake_script)()
+coroutine.wrap(LITNDJ_fake_script)()
