@@ -665,7 +665,7 @@ local function NEADZEX_fake_script() -- FastLift.LocalScript
 	local FastLift = script.Parent
 
 	FastLift.MouseButton1Click:connect(function()
-		while wait(0.1) do
+		while wait(0.3) do
 			game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"GainMuscle"})
 		end
 	end)
