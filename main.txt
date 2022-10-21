@@ -1,4 +1,3 @@
--- Lifting Simulator
 -- Gui to Lua
 -- Version: 3.2
 
@@ -25,34 +24,32 @@ local AutoSell = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
 local FastLift = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
-local SkillsF = Instance.new("Frame")
+local FastLift1 = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
-local Poseidon = Instance.new("TextButton")
+local SkillsF = Instance.new("Frame")
 local UICorner_12 = Instance.new("UICorner")
-local Cronus = Instance.new("TextButton")
+local Poseidon = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
-local Zeus = Instance.new("TextButton")
+local Cronus = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
-local SettingsF = Instance.new("Frame")
+local Zeus = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
-local AntiAFK = Instance.new("TextButton")
+local SettingsF = Instance.new("Frame")
 local UICorner_16 = Instance.new("UICorner")
-local toggleinfo = Instance.new("TextButton")
+local AntiAFK = Instance.new("TextButton")
 local UICorner_17 = Instance.new("UICorner")
+local toggleinfo = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
 local dope = Instance.new("TextLabel")
 local HomeF = Instance.new("Frame")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local changelogT = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
-local TextButton = Instance.new("TextButton")
 local UICorner_20 = Instance.new("UICorner")
-local TextButton_2 = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
-local TextButton_3 = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
 local UICorner_22 = Instance.new("UICorner")
-local TextButton_4 = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
 
 --Properties:
 
@@ -190,6 +187,22 @@ FastLift.TextWrapped = true
 
 UICorner_10.Parent = FastLift
 
+FastLift1.Name = "FastLift1"
+FastLift1.Parent = MuscleF
+FastLift1.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+FastLift1.Position = UDim2.new(0.665407777, 0, 0.0549119562, 0)
+FastLift1.Size = UDim2.new(0, 127, 0, 31)
+FastLift1.Visible = false
+FastLift1.Font = Enum.Font.SourceSans
+FastLift1.Text = "FastLift (Enabled)"
+FastLift1.TextColor3 = Color3.fromRGB(0, 0, 0)
+FastLift1.TextScaled = true
+FastLift1.TextSize = 14.000
+FastLift1.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+FastLift1.TextWrapped = true
+
+UICorner_11.Parent = FastLift1
+
 SkillsF.Name = "SkillsF"
 SkillsF.Parent = Main
 SkillsF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
@@ -197,7 +210,7 @@ SkillsF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
 SkillsF.Size = UDim2.new(0, 428, 0, 249)
 SkillsF.Visible = false
 
-UICorner_11.Parent = SkillsF
+UICorner_12.Parent = SkillsF
 
 Poseidon.Name = "Poseidon"
 Poseidon.Parent = SkillsF
@@ -212,7 +225,7 @@ Poseidon.TextSize = 14.000
 Poseidon.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 Poseidon.TextWrapped = true
 
-UICorner_12.Parent = Poseidon
+UICorner_13.Parent = Poseidon
 
 Cronus.Name = "Cronus"
 Cronus.Parent = SkillsF
@@ -227,7 +240,7 @@ Cronus.TextSize = 14.000
 Cronus.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 Cronus.TextWrapped = true
 
-UICorner_13.Parent = Cronus
+UICorner_14.Parent = Cronus
 
 Zeus.Name = "Zeus"
 Zeus.Parent = SkillsF
@@ -242,7 +255,7 @@ Zeus.TextSize = 14.000
 Zeus.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 Zeus.TextWrapped = true
 
-UICorner_14.Parent = Zeus
+UICorner_15.Parent = Zeus
 
 SettingsF.Name = "SettingsF"
 SettingsF.Parent = Main
@@ -251,7 +264,7 @@ SettingsF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
 SettingsF.Size = UDim2.new(0, 428, 0, 249)
 SettingsF.Visible = false
 
-UICorner_15.Parent = SettingsF
+UICorner_16.Parent = SettingsF
 
 AntiAFK.Name = "AntiAFK"
 AntiAFK.Parent = SettingsF
@@ -266,7 +279,7 @@ AntiAFK.TextSize = 14.000
 AntiAFK.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 AntiAFK.TextWrapped = true
 
-UICorner_16.Parent = AntiAFK
+UICorner_17.Parent = AntiAFK
 
 toggleinfo.Name = "toggle info"
 toggleinfo.Parent = SettingsF
@@ -281,7 +294,7 @@ toggleinfo.TextSize = 14.000
 toggleinfo.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 toggleinfo.TextWrapped = true
 
-UICorner_17.Parent = toggleinfo
+UICorner_18.Parent = toggleinfo
 
 dope.Name = "dope"
 dope.Parent = Main
@@ -301,7 +314,7 @@ HomeF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
 HomeF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
 HomeF.Size = UDim2.new(0, 428, 0, 249)
 
-UICorner_18.Parent = HomeF
+UICorner_19.Parent = HomeF
 
 ScrollingFrame.Parent = HomeF
 ScrollingFrame.Active = true
@@ -316,14 +329,14 @@ changelogT.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
 changelogT.Position = UDim2.new(0.0225448832, 0, 0.0155074224, 0)
 changelogT.Size = UDim2.new(0, 374, 0, 31)
 changelogT.Font = Enum.Font.SourceSans
-changelogT.Text = "DOPE V2.56C"
+changelogT.Text = "DOPE V3.01A"
 changelogT.TextColor3 = Color3.fromRGB(0, 0, 0)
 changelogT.TextScaled = true
 changelogT.TextSize = 14.000
 changelogT.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 changelogT.TextWrapped = true
 
-UICorner_19.Parent = changelogT
+UICorner_20.Parent = changelogT
 
 TextButton.Name = "-"
 TextButton.Parent = ScrollingFrame
@@ -332,14 +345,14 @@ TextButton.BackgroundTransparency = 1.000
 TextButton.Position = UDim2.new(0.0225448832, 0, 0.101852804, 0)
 TextButton.Size = UDim2.new(0, 374, 0, 31)
 TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "- made changes to fastlift (more legit, for lb)"
+TextButton.Text = "- made fastlift less noticable"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextScaled = true
 TextButton.TextSize = 14.000
 TextButton.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 TextButton.TextWrapped = true
 
-UICorner_20.Parent = TextButton
+UICorner_21.Parent = TextButton
 
 TextButton_2.Name = "-"
 TextButton_2.Parent = ScrollingFrame
@@ -355,43 +368,11 @@ TextButton_2.TextSize = 14.000
 TextButton_2.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 TextButton_2.TextWrapped = true
 
-UICorner_21.Parent = TextButton_2
-
-TextButton_3.Name = "-"
-TextButton_3.Parent = ScrollingFrame
-TextButton_3.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-TextButton_3.BackgroundTransparency = 1.000
-TextButton_3.Position = UDim2.new(0.0225448832, 0, 0.232374907, 0)
-TextButton_3.Size = UDim2.new(0, 374, 0, 31)
-TextButton_3.Font = Enum.Font.SourceSans
-TextButton_3.Text = "- removed fruitloops :("
-TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_3.TextScaled = true
-TextButton_3.TextSize = 14.000
-TextButton_3.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-TextButton_3.TextWrapped = true
-
-UICorner_22.Parent = TextButton_3
-
-TextButton_4.Name = "-"
-TextButton_4.Parent = ScrollingFrame
-TextButton_4.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-TextButton_4.BackgroundTransparency = 1.000
-TextButton_4.Position = UDim2.new(0.0225448832, 0, 0.294623911, 0)
-TextButton_4.Size = UDim2.new(0, 374, 0, 31)
-TextButton_4.Font = Enum.Font.SourceSans
-TextButton_4.Text = "- removed player tab"
-TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_4.TextScaled = true
-TextButton_4.TextSize = 14.000
-TextButton_4.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-TextButton_4.TextWrapped = true
-
-UICorner_23.Parent = TextButton_4
+UICorner_22.Parent = TextButton_2
 
 -- Scripts:
 
-local function RDLWYDK_fake_script() -- HomeB.LocalScript 
+local function RXSXMY_fake_script() -- HomeB.LocalScript 
 	local script = Instance.new('LocalScript', HomeB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -406,8 +387,8 @@ local function RDLWYDK_fake_script() -- HomeB.LocalScript
 		SettingsF.Visible = false
 	end)
 end
-coroutine.wrap(RDLWYDK_fake_script)()
-local function YBGTHK_fake_script() -- MuscleB.LocalScript 
+coroutine.wrap(RXSXMY_fake_script)()
+local function RBRWNP_fake_script() -- MuscleB.LocalScript 
 	local script = Instance.new('LocalScript', MuscleB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -422,8 +403,8 @@ local function YBGTHK_fake_script() -- MuscleB.LocalScript
 		SettingsF.Visible = false
 	end)
 end
-coroutine.wrap(YBGTHK_fake_script)()
-local function TZEJ_fake_script() -- SkillsB.LocalScript 
+coroutine.wrap(RBRWNP_fake_script)()
+local function YIJNXSP_fake_script() -- SkillsB.LocalScript 
 	local script = Instance.new('LocalScript', SkillsB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -438,8 +419,8 @@ local function TZEJ_fake_script() -- SkillsB.LocalScript
 		SettingsF.Visible = false
 	end)
 end
-coroutine.wrap(TZEJ_fake_script)()
-local function QOXYH_fake_script() -- SettingsB.LocalScript 
+coroutine.wrap(YIJNXSP_fake_script)()
+local function AVRKQAF_fake_script() -- SettingsB.LocalScript 
 	local script = Instance.new('LocalScript', SettingsB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -454,8 +435,8 @@ local function QOXYH_fake_script() -- SettingsB.LocalScript
 		SettingsF.Visible = true
 	end)
 end
-coroutine.wrap(QOXYH_fake_script)()
-local function VNHDH_fake_script() -- userPNG.LocalScript 
+coroutine.wrap(AVRKQAF_fake_script)()
+local function CQTKLXX_fake_script() -- userPNG.LocalScript 
 	local script = Instance.new('LocalScript', userPNG)
 
 	local Players = game:GetService("Players")
@@ -470,8 +451,8 @@ local function VNHDH_fake_script() -- userPNG.LocalScript
 	local imageLabel = script.Parent
 	imageLabel.Image = content
 end
-coroutine.wrap(VNHDH_fake_script)()
-local function QQNFZIU_fake_script() -- AutoClick.LocalScript 
+coroutine.wrap(CQTKLXX_fake_script)()
+local function FLKPG_fake_script() -- AutoClick.LocalScript 
 	local script = Instance.new('LocalScript', AutoClick)
 
 	local AutoFarm = script.Parent
@@ -494,8 +475,8 @@ local function QQNFZIU_fake_script() -- AutoClick.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QQNFZIU_fake_script)()
-local function GYOVNS_fake_script() -- AutoSell.LocalScript 
+coroutine.wrap(FLKPG_fake_script)()
+local function NWUNL_fake_script() -- AutoSell.LocalScript 
 	local script = Instance.new('LocalScript', AutoSell)
 
 	local AUTOSELL = script.Parent
@@ -513,20 +494,31 @@ local function GYOVNS_fake_script() -- AutoSell.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GYOVNS_fake_script)()
-local function XRAEA_fake_script() -- FastLift.LocalScript 
+coroutine.wrap(NWUNL_fake_script)()
+local function QMSK_fake_script() -- FastLift.LocalScript 
 	local script = Instance.new('LocalScript', FastLift)
 
 	local FastLift = script.Parent
 
 	FastLift.MouseButton1Click:connect(function()
-		while wait(0.3) do
-			game:GetService("ReplicatedStorage").RemoteEvent:FireServer({"GainMuscle"})
+		while wait(1.982) do
+
+			local A_1 =
+				{
+					[1] = "GainMuscle"
+				}
+			local Event = game:GetService("ReplicatedStorage").RemoteEvent
+			Event:FireServer(A_1)
 		end
 	end)
+
+	FastLift.MouseButton1Click:Connect(function()
+		script.Parent.Visible = false
+		script.Parent.Parent.FastLift1.Visible = true
+	end)
 end
-coroutine.wrap(XRAEA_fake_script)()
-local function FZQYD_fake_script() -- Poseidon.LocalScript 
+coroutine.wrap(QMSK_fake_script)()
+local function RTKHT_fake_script() -- Poseidon.LocalScript 
 	local script = Instance.new('LocalScript', Poseidon)
 
 	local PoseidonB = script.Parent
@@ -549,8 +541,8 @@ local function FZQYD_fake_script() -- Poseidon.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FZQYD_fake_script)()
-local function KPMPFCC_fake_script() -- Cronus.LocalScript 
+coroutine.wrap(RTKHT_fake_script)()
+local function SHKXV_fake_script() -- Cronus.LocalScript 
 	local script = Instance.new('LocalScript', Cronus)
 
 	local CronusB = script.Parent
@@ -573,8 +565,8 @@ local function KPMPFCC_fake_script() -- Cronus.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KPMPFCC_fake_script)()
-local function PSOXU_fake_script() -- Zeus.LocalScript 
+coroutine.wrap(SHKXV_fake_script)()
+local function MXVVVY_fake_script() -- Zeus.LocalScript 
 	local script = Instance.new('LocalScript', Zeus)
 
 	local ZeusB = script.Parent
@@ -597,8 +589,8 @@ local function PSOXU_fake_script() -- Zeus.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PSOXU_fake_script)()
-local function IDLDY_fake_script() -- AntiAFK.n 
+coroutine.wrap(MXVVVY_fake_script)()
+local function PTXKZE_fake_script() -- AntiAFK.n 
 	local script = Instance.new('LocalScript', AntiAFK)
 
 	local vu = game:GetService("VirtualUser")
@@ -608,8 +600,8 @@ local function IDLDY_fake_script() -- AntiAFK.n
 		vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 	end)
 end
-coroutine.wrap(IDLDY_fake_script)()
-local function LITNDJ_fake_script() -- Main.togglegui 
+coroutine.wrap(PTXKZE_fake_script)()
+local function CZBFI_fake_script() -- Main.togglegui 
 	local script = Instance.new('LocalScript', Main)
 
 	local UIS = game:GetService("UserInputService")
@@ -621,4 +613,4 @@ local function LITNDJ_fake_script() -- Main.togglegui
 		end
 	end)
 end
-coroutine.wrap(LITNDJ_fake_script)()
+coroutine.wrap(CZBFI_fake_script)()
