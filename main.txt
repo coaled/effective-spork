@@ -40,16 +40,22 @@ local AntiAFK = Instance.new("TextButton")
 local UICorner_17 = Instance.new("UICorner")
 local toggleinfo = Instance.new("TextButton")
 local UICorner_18 = Instance.new("UICorner")
+local ServerCrasher = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local ServerCrasher1 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
 local dope = Instance.new("TextLabel")
 local HomeF = Instance.new("Frame")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local changelogT = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
-local TextButton = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
-local TextButton_2 = Instance.new("TextButton")
 local UICorner_22 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
 
 --Properties:
 
@@ -296,6 +302,36 @@ toggleinfo.TextWrapped = true
 
 UICorner_18.Parent = toggleinfo
 
+ServerCrasher.Name = "ServerCrasher"
+ServerCrasher.Parent = SettingsF
+ServerCrasher.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+ServerCrasher.Position = UDim2.new(0.0322301313, 0, 0.396277428, 0)
+ServerCrasher.Size = UDim2.new(0, 399, 0, 31)
+ServerCrasher.Font = Enum.Font.SourceSans
+ServerCrasher.Text = "Server Crasher"
+ServerCrasher.TextColor3 = Color3.fromRGB(0, 0, 0)
+ServerCrasher.TextScaled = true
+ServerCrasher.TextSize = 14.000
+ServerCrasher.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+ServerCrasher.TextWrapped = true
+
+UICorner_19.Parent = ServerCrasher
+
+ServerCrasher1.Name = "ServerCrasher1"
+ServerCrasher1.Parent = SettingsF
+ServerCrasher1.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+ServerCrasher1.Position = UDim2.new(0.0345665775, 0, 0.560936153, 0)
+ServerCrasher1.Size = UDim2.new(0, 399, 0, 98)
+ServerCrasher1.Font = Enum.Font.SourceSans
+ServerCrasher1.Text = "EXPLAINATION: use an alt, equip layered clothing, click server crasher, enjoy (INFO: works better in bigger servers ;) )"
+ServerCrasher1.TextColor3 = Color3.fromRGB(0, 0, 0)
+ServerCrasher1.TextScaled = true
+ServerCrasher1.TextSize = 14.000
+ServerCrasher1.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+ServerCrasher1.TextWrapped = true
+
+UICorner_20.Parent = ServerCrasher1
+
 dope.Name = "dope"
 dope.Parent = Main
 dope.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -314,7 +350,7 @@ HomeF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
 HomeF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
 HomeF.Size = UDim2.new(0, 428, 0, 249)
 
-UICorner_19.Parent = HomeF
+UICorner_21.Parent = HomeF
 
 ScrollingFrame.Parent = HomeF
 ScrollingFrame.Active = true
@@ -336,7 +372,7 @@ changelogT.TextSize = 14.000
 changelogT.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 changelogT.TextWrapped = true
 
-UICorner_20.Parent = changelogT
+UICorner_22.Parent = changelogT
 
 TextButton.Name = "-"
 TextButton.Parent = ScrollingFrame
@@ -352,7 +388,7 @@ TextButton.TextSize = 14.000
 TextButton.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 TextButton.TextWrapped = true
 
-UICorner_21.Parent = TextButton
+UICorner_23.Parent = TextButton
 
 TextButton_2.Name = "-"
 TextButton_2.Parent = ScrollingFrame
@@ -368,11 +404,27 @@ TextButton_2.TextSize = 14.000
 TextButton_2.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
 TextButton_2.TextWrapped = true
 
-UICorner_22.Parent = TextButton_2
+UICorner_24.Parent = TextButton_2
+
+TextButton_3.Name = "-"
+TextButton_3.Parent = ScrollingFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.Position = UDim2.new(0.0225448832, 0, 0.226350814, 0)
+TextButton_3.Size = UDim2.new(0, 374, 0, 31)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "- added server crasher ;)"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
+TextButton_3.TextWrapped = true
+
+UICorner_25.Parent = TextButton_3
 
 -- Scripts:
 
-local function RXSXMY_fake_script() -- HomeB.LocalScript 
+local function IUKGCIE_fake_script() -- HomeB.LocalScript 
 	local script = Instance.new('LocalScript', HomeB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -387,8 +439,8 @@ local function RXSXMY_fake_script() -- HomeB.LocalScript
 		SettingsF.Visible = false
 	end)
 end
-coroutine.wrap(RXSXMY_fake_script)()
-local function RBRWNP_fake_script() -- MuscleB.LocalScript 
+coroutine.wrap(IUKGCIE_fake_script)()
+local function TPPU_fake_script() -- MuscleB.LocalScript 
 	local script = Instance.new('LocalScript', MuscleB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -403,8 +455,8 @@ local function RBRWNP_fake_script() -- MuscleB.LocalScript
 		SettingsF.Visible = false
 	end)
 end
-coroutine.wrap(RBRWNP_fake_script)()
-local function YIJNXSP_fake_script() -- SkillsB.LocalScript 
+coroutine.wrap(TPPU_fake_script)()
+local function NMHG_fake_script() -- SkillsB.LocalScript 
 	local script = Instance.new('LocalScript', SkillsB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -419,8 +471,8 @@ local function YIJNXSP_fake_script() -- SkillsB.LocalScript
 		SettingsF.Visible = false
 	end)
 end
-coroutine.wrap(YIJNXSP_fake_script)()
-local function AVRKQAF_fake_script() -- SettingsB.LocalScript 
+coroutine.wrap(NMHG_fake_script)()
+local function FHQC_fake_script() -- SettingsB.LocalScript 
 	local script = Instance.new('LocalScript', SettingsB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -435,8 +487,8 @@ local function AVRKQAF_fake_script() -- SettingsB.LocalScript
 		SettingsF.Visible = true
 	end)
 end
-coroutine.wrap(AVRKQAF_fake_script)()
-local function CQTKLXX_fake_script() -- userPNG.LocalScript 
+coroutine.wrap(FHQC_fake_script)()
+local function INCUKGP_fake_script() -- userPNG.LocalScript 
 	local script = Instance.new('LocalScript', userPNG)
 
 	local Players = game:GetService("Players")
@@ -451,8 +503,8 @@ local function CQTKLXX_fake_script() -- userPNG.LocalScript
 	local imageLabel = script.Parent
 	imageLabel.Image = content
 end
-coroutine.wrap(CQTKLXX_fake_script)()
-local function FLKPG_fake_script() -- AutoClick.LocalScript 
+coroutine.wrap(INCUKGP_fake_script)()
+local function IAYZRQU_fake_script() -- AutoClick.LocalScript 
 	local script = Instance.new('LocalScript', AutoClick)
 
 	local AutoFarm = script.Parent
@@ -475,8 +527,8 @@ local function FLKPG_fake_script() -- AutoClick.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FLKPG_fake_script)()
-local function NWUNL_fake_script() -- AutoSell.LocalScript 
+coroutine.wrap(IAYZRQU_fake_script)()
+local function VTCY_fake_script() -- AutoSell.LocalScript 
 	local script = Instance.new('LocalScript', AutoSell)
 
 	local AUTOSELL = script.Parent
@@ -494,14 +546,14 @@ local function NWUNL_fake_script() -- AutoSell.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NWUNL_fake_script)()
-local function QMSK_fake_script() -- FastLift.LocalScript 
+coroutine.wrap(VTCY_fake_script)()
+local function ZHQVY_fake_script() -- FastLift.LocalScript 
 	local script = Instance.new('LocalScript', FastLift)
 
 	local FastLift = script.Parent
 
 	FastLift.MouseButton1Click:connect(function()
-		while wait(1.982) do
+		while wait(0.4) do
 
 			local A_1 =
 				{
@@ -517,8 +569,8 @@ local function QMSK_fake_script() -- FastLift.LocalScript
 		script.Parent.Parent.FastLift1.Visible = true
 	end)
 end
-coroutine.wrap(QMSK_fake_script)()
-local function RTKHT_fake_script() -- Poseidon.LocalScript 
+coroutine.wrap(ZHQVY_fake_script)()
+local function SVBGT_fake_script() -- Poseidon.LocalScript 
 	local script = Instance.new('LocalScript', Poseidon)
 
 	local PoseidonB = script.Parent
@@ -541,8 +593,8 @@ local function RTKHT_fake_script() -- Poseidon.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RTKHT_fake_script)()
-local function SHKXV_fake_script() -- Cronus.LocalScript 
+coroutine.wrap(SVBGT_fake_script)()
+local function ZIWE_fake_script() -- Cronus.LocalScript 
 	local script = Instance.new('LocalScript', Cronus)
 
 	local CronusB = script.Parent
@@ -565,8 +617,8 @@ local function SHKXV_fake_script() -- Cronus.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SHKXV_fake_script)()
-local function MXVVVY_fake_script() -- Zeus.LocalScript 
+coroutine.wrap(ZIWE_fake_script)()
+local function WJGW_fake_script() -- Zeus.LocalScript 
 	local script = Instance.new('LocalScript', Zeus)
 
 	local ZeusB = script.Parent
@@ -589,8 +641,8 @@ local function MXVVVY_fake_script() -- Zeus.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MXVVVY_fake_script)()
-local function PTXKZE_fake_script() -- AntiAFK.n 
+coroutine.wrap(WJGW_fake_script)()
+local function EMSWNL_fake_script() -- AntiAFK.n 
 	local script = Instance.new('LocalScript', AntiAFK)
 
 	local vu = game:GetService("VirtualUser")
@@ -600,8 +652,23 @@ local function PTXKZE_fake_script() -- AntiAFK.n
 		vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 	end)
 end
-coroutine.wrap(PTXKZE_fake_script)()
-local function CZBFI_fake_script() -- Main.togglegui 
+coroutine.wrap(EMSWNL_fake_script)()
+local function GXMYPTU_fake_script() -- ServerCrasher.LocalScript 
+	local script = Instance.new('LocalScript', ServerCrasher)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for _,s in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+			if s:IsA("Motor6D") and s.Name ~= "Neck" then
+				local fard = s.Parent
+				s:Destroy()
+				fard.CFrame = CFrame.new(9e9 * _,9e9* _,9e9*_)
+				wait()
+			end
+		end
+	end)
+end
+coroutine.wrap(GXMYPTU_fake_script)()
+local function SRFRZ_fake_script() -- Main.togglegui 
 	local script = Instance.new('LocalScript', Main)
 
 	local UIS = game:GetService("UserInputService")
@@ -613,4 +680,4 @@ local function CZBFI_fake_script() -- Main.togglegui
 		end
 	end)
 end
-coroutine.wrap(CZBFI_fake_script)()
+coroutine.wrap(SRFRZ_fake_script)()
