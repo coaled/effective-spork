@@ -314,7 +314,6 @@ HomeF.Parent = Main
 HomeF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
 HomeF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
 HomeF.Size = UDim2.new(0, 428, 0, 249)
-HomeF.Visible = false
 
 UICorner_19.Parent = HomeF
 
@@ -374,7 +373,7 @@ UICorner_22.Parent = TextButton_2
 
 -- Scripts:
 
-local function GJTP_fake_script() -- HomeB.LocalScript 
+local function LPXOLZ_fake_script() -- HomeB.LocalScript 
 	local script = Instance.new('LocalScript', HomeB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -389,8 +388,8 @@ local function GJTP_fake_script() -- HomeB.LocalScript
 		SettingsF.Visible = false
 	end)
 end
-coroutine.wrap(GJTP_fake_script)()
-local function LYWIMZG_fake_script() -- MuscleB.LocalScript 
+coroutine.wrap(LPXOLZ_fake_script)()
+local function MYMCS_fake_script() -- MuscleB.LocalScript 
 	local script = Instance.new('LocalScript', MuscleB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -405,8 +404,8 @@ local function LYWIMZG_fake_script() -- MuscleB.LocalScript
 		SettingsF.Visible = false
 	end)
 end
-coroutine.wrap(LYWIMZG_fake_script)()
-local function GKAQNUI_fake_script() -- SkillsB.LocalScript 
+coroutine.wrap(MYMCS_fake_script)()
+local function OITBXUT_fake_script() -- SkillsB.LocalScript 
 	local script = Instance.new('LocalScript', SkillsB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -421,8 +420,8 @@ local function GKAQNUI_fake_script() -- SkillsB.LocalScript
 		SettingsF.Visible = false
 	end)
 end
-coroutine.wrap(GKAQNUI_fake_script)()
-local function GWMPG_fake_script() -- SettingsB.LocalScript 
+coroutine.wrap(OITBXUT_fake_script)()
+local function DROWJLN_fake_script() -- SettingsB.LocalScript 
 	local script = Instance.new('LocalScript', SettingsB)
 
 	local HomeF = script.Parent.Parent.HomeF
@@ -437,8 +436,8 @@ local function GWMPG_fake_script() -- SettingsB.LocalScript
 		SettingsF.Visible = true
 	end)
 end
-coroutine.wrap(GWMPG_fake_script)()
-local function JPEVKEW_fake_script() -- userPNG.LocalScript 
+coroutine.wrap(DROWJLN_fake_script)()
+local function JXARM_fake_script() -- userPNG.LocalScript 
 	local script = Instance.new('LocalScript', userPNG)
 
 	local Players = game:GetService("Players")
@@ -453,8 +452,8 @@ local function JPEVKEW_fake_script() -- userPNG.LocalScript
 	local imageLabel = script.Parent
 	imageLabel.Image = content
 end
-coroutine.wrap(JPEVKEW_fake_script)()
-local function FYADMRA_fake_script() -- AutoClick.LocalScript 
+coroutine.wrap(JXARM_fake_script)()
+local function MCOZSD_fake_script() -- AutoClick.LocalScript 
 	local script = Instance.new('LocalScript', AutoClick)
 
 	local AutoFarm = script.Parent
@@ -477,8 +476,8 @@ local function FYADMRA_fake_script() -- AutoClick.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FYADMRA_fake_script)()
-local function GYHDXL_fake_script() -- AutoSell.LocalScript 
+coroutine.wrap(MCOZSD_fake_script)()
+local function LKBMTI_fake_script() -- AutoSell.LocalScript 
 	local script = Instance.new('LocalScript', AutoSell)
 
 	local AUTOSELL = script.Parent
@@ -496,14 +495,14 @@ local function GYHDXL_fake_script() -- AutoSell.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GYHDXL_fake_script)()
-local function EDJAHE_fake_script() -- FastLift.LocalScript 
+coroutine.wrap(LKBMTI_fake_script)()
+local function JMVYSS_fake_script() -- FastLift.LocalScript 
 	local script = Instance.new('LocalScript', FastLift)
 
 	local FastLift = script.Parent
 
 	FastLift.MouseButton1Click:connect(function()
-		while wait(0.4) do
+		while wait(0.001) do
 
 			local A_1 =
 				{
@@ -519,8 +518,8 @@ local function EDJAHE_fake_script() -- FastLift.LocalScript
 		script.Parent.Parent.FastLift1.Visible = true
 	end)
 end
-coroutine.wrap(EDJAHE_fake_script)()
-local function UEUCSJ_fake_script() -- Poseidon.LocalScript 
+coroutine.wrap(JMVYSS_fake_script)()
+local function SMGBZ_fake_script() -- Poseidon.LocalScript 
 	local script = Instance.new('LocalScript', Poseidon)
 
 	local PoseidonB = script.Parent
@@ -543,8 +542,8 @@ local function UEUCSJ_fake_script() -- Poseidon.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UEUCSJ_fake_script)()
-local function YYYKX_fake_script() -- Cronus.LocalScript 
+coroutine.wrap(SMGBZ_fake_script)()
+local function NFUNMQ_fake_script() -- Cronus.LocalScript 
 	local script = Instance.new('LocalScript', Cronus)
 
 	local CronusB = script.Parent
@@ -567,8 +566,8 @@ local function YYYKX_fake_script() -- Cronus.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YYYKX_fake_script)()
-local function EHBS_fake_script() -- Zeus.LocalScript 
+coroutine.wrap(NFUNMQ_fake_script)()
+local function HCAPISQ_fake_script() -- Zeus.LocalScript 
 	local script = Instance.new('LocalScript', Zeus)
 
 	local ZeusB = script.Parent
@@ -591,8 +590,8 @@ local function EHBS_fake_script() -- Zeus.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EHBS_fake_script)()
-local function FZKBS_fake_script() -- AntiAFK.n 
+coroutine.wrap(HCAPISQ_fake_script)()
+local function XSGS_fake_script() -- AntiAFK.n 
 	local script = Instance.new('LocalScript', AntiAFK)
 
 	local vu = game:GetService("VirtualUser")
@@ -602,8 +601,8 @@ local function FZKBS_fake_script() -- AntiAFK.n
 		vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 	end)
 end
-coroutine.wrap(FZKBS_fake_script)()
-local function CBRBXX_fake_script() -- Main.togglegui 
+coroutine.wrap(XSGS_fake_script)()
+local function IHROJHF_fake_script() -- Main.togglegui 
 	local script = Instance.new('LocalScript', Main)
 
 	local UIS = game:GetService("UserInputService")
@@ -615,4 +614,4 @@ local function CBRBXX_fake_script() -- Main.togglegui
 		end
 	end)
 end
-coroutine.wrap(CBRBXX_fake_script)()
+coroutine.wrap(IHROJHF_fake_script)()
