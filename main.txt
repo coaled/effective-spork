@@ -1,1690 +1,618 @@
 -- Gui to Lua
-
-
 -- Version: 3.2
-
-
 
 -- Instances:
 
-
-
 local aijbgflihsbglsg = Instance.new("ScreenGui")
-
-
 local Main = Instance.new("Frame")
-
-
 local UICorner = Instance.new("UICorner")
-
-
 local HomeB = Instance.new("TextButton")
-
-
 local UICorner_2 = Instance.new("UICorner")
-
-
 local MuscleB = Instance.new("TextButton")
-
-
 local UICorner_3 = Instance.new("UICorner")
-
-
 local SkillsB = Instance.new("TextButton")
-
-
 local UICorner_4 = Instance.new("UICorner")
-
-
 local SettingsB = Instance.new("TextButton")
-
-
 local UICorner_5 = Instance.new("UICorner")
-
-
 local userPNG = Instance.new("ImageLabel")
-
-
 local UICorner_6 = Instance.new("UICorner")
-
-
 local MuscleF = Instance.new("Frame")
-
-
 local UICorner_7 = Instance.new("UICorner")
-
-
 local AutoClick = Instance.new("TextButton")
-
-
 local UICorner_8 = Instance.new("UICorner")
-
-
 local AutoSell = Instance.new("TextButton")
-
-
 local UICorner_9 = Instance.new("UICorner")
-
-
 local FastLift = Instance.new("TextButton")
-
-
 local UICorner_10 = Instance.new("UICorner")
-
-
 local FastLift1 = Instance.new("TextButton")
-
-
 local UICorner_11 = Instance.new("UICorner")
-
-
 local SkillsF = Instance.new("Frame")
-
-
 local UICorner_12 = Instance.new("UICorner")
-
-
 local Poseidon = Instance.new("TextButton")
-
-
 local UICorner_13 = Instance.new("UICorner")
-
-
 local Cronus = Instance.new("TextButton")
-
-
 local UICorner_14 = Instance.new("UICorner")
-
-
 local Zeus = Instance.new("TextButton")
-
-
 local UICorner_15 = Instance.new("UICorner")
-
-
 local SettingsF = Instance.new("Frame")
-
-
 local UICorner_16 = Instance.new("UICorner")
-
-
 local AntiAFK = Instance.new("TextButton")
-
-
 local UICorner_17 = Instance.new("UICorner")
-
-
 local toggleinfo = Instance.new("TextButton")
-
-
 local UICorner_18 = Instance.new("UICorner")
-
-
 local dope = Instance.new("TextLabel")
-
-
 local HomeF = Instance.new("Frame")
-
-
 local UICorner_19 = Instance.new("UICorner")
-
-
 local ScrollingFrame = Instance.new("ScrollingFrame")
-
-
 local changelogT = Instance.new("TextButton")
-
-
 local UICorner_20 = Instance.new("UICorner")
-
-
 local TextButton = Instance.new("TextButton")
-
-
 local UICorner_21 = Instance.new("UICorner")
-
-
 local TextButton_2 = Instance.new("TextButton")
-
-
 local UICorner_22 = Instance.new("UICorner")
-
-
 
 --Properties:
 
-
-
 aijbgflihsbglsg.Name = "aijbgflihsbglsg"
-
-
 aijbgflihsbglsg.Parent = game.CoreGui
-
-
 aijbgflihsbglsg.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-
-
 Main.Name = "Main"
-
-
 Main.Parent = aijbgflihsbglsg
-
-
 Main.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
-
-
 Main.Position = UDim2.new(0.280898869, 0, 0.273516655, 0)
-
-
 Main.Size = UDim2.new(0, 584, 0, 312)
-
-
 Main.Active = true
-
-
 Main.Draggable = true
-
-
 
 UICorner.Parent = Main
 
-
-
 HomeB.Name = "HomeB"
-
-
 HomeB.Parent = Main
-
-
 HomeB.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
-
-
 HomeB.Position = UDim2.new(0.0154109588, 0, 0.166666672, 0)
-
-
 HomeB.Size = UDim2.new(0, 127, 0, 31)
-
-
 HomeB.Font = Enum.Font.SourceSans
-
-
 HomeB.Text = "Home"
-
-
 HomeB.TextColor3 = Color3.fromRGB(180, 180, 180)
-
-
 HomeB.TextScaled = true
-
-
 HomeB.TextSize = 14.000
-
-
 HomeB.TextWrapped = true
-
-
 
 UICorner_2.Parent = HomeB
 
-
-
 MuscleB.Name = "MuscleB"
-
-
 MuscleB.Parent = Main
-
-
 MuscleB.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
-
-
 MuscleB.Position = UDim2.new(0.0154109588, 0, 0.285256416, 0)
-
-
 MuscleB.Size = UDim2.new(0, 127, 0, 31)
-
-
 MuscleB.Font = Enum.Font.SourceSans
-
-
 MuscleB.Text = "Muscle"
-
-
 MuscleB.TextColor3 = Color3.fromRGB(180, 180, 180)
-
-
 MuscleB.TextScaled = true
-
-
 MuscleB.TextSize = 14.000
-
-
 MuscleB.TextWrapped = true
-
-
 
 UICorner_3.Parent = MuscleB
 
-
-
 SkillsB.Name = "SkillsB"
-
-
 SkillsB.Parent = Main
-
-
 SkillsB.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
-
-
 SkillsB.Position = UDim2.new(0.0154109588, 0, 0.410256416, 0)
-
-
 SkillsB.Size = UDim2.new(0, 127, 0, 31)
-
-
 SkillsB.Font = Enum.Font.SourceSans
-
-
 SkillsB.Text = "Skills"
-
-
 SkillsB.TextColor3 = Color3.fromRGB(180, 180, 180)
-
-
 SkillsB.TextScaled = true
-
-
 SkillsB.TextSize = 14.000
-
-
 SkillsB.TextWrapped = true
-
-
 
 UICorner_4.Parent = SkillsB
 
-
-
 SettingsB.Name = "SettingsB"
-
-
 SettingsB.Parent = Main
-
-
 SettingsB.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
-
-
 SettingsB.Position = UDim2.new(0.0154109597, 0, 0.535256386, 0)
-
-
 SettingsB.Size = UDim2.new(0, 127, 0, 31)
-
-
 SettingsB.Font = Enum.Font.SourceSans
-
-
 SettingsB.Text = "Settings"
-
-
 SettingsB.TextColor3 = Color3.fromRGB(180, 180, 180)
-
-
 SettingsB.TextScaled = true
-
-
 SettingsB.TextSize = 14.000
-
-
 SettingsB.TextWrapped = true
-
-
 
 UICorner_5.Parent = SettingsB
 
-
-
 userPNG.Name = "userPNG"
-
-
 userPNG.Parent = Main
-
-
 userPNG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-
-
 userPNG.BackgroundTransparency = 1.000
-
-
 userPNG.Position = UDim2.new(0.0381624401, 0, 0.662213862, 0)
-
-
 userPNG.Size = UDim2.new(0, 100, 0, 94)
-
-
 userPNG.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
-
-
 
 UICorner_6.Parent = userPNG
 
-
-
 MuscleF.Name = "MuscleF"
-
-
 MuscleF.Parent = Main
-
-
 MuscleF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-
-
 MuscleF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
-
-
 MuscleF.Size = UDim2.new(0, 428, 0, 249)
-
-
 MuscleF.Visible = false
-
-
 
 UICorner_7.Parent = MuscleF
 
-
-
 AutoClick.Name = "AutoClick"
-
-
 AutoClick.Parent = MuscleF
-
-
 AutoClick.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-
-
 AutoClick.Position = UDim2.new(0.0345666409, 0, 0.0549119562, 0)
-
-
 AutoClick.Size = UDim2.new(0, 127, 0, 31)
-
-
 AutoClick.Font = Enum.Font.SourceSans
-
-
 AutoClick.Text = "AutoClick"
-
-
 AutoClick.TextColor3 = Color3.fromRGB(0, 0, 0)
-
-
 AutoClick.TextScaled = true
-
-
 AutoClick.TextSize = 14.000
-
-
 AutoClick.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-
-
 AutoClick.TextWrapped = true
-
-
 
 UICorner_8.Parent = AutoClick
 
-
-
 AutoSell.Name = "AutoSell"
-
-
 AutoSell.Parent = MuscleF
-
-
 AutoSell.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-
-
 AutoSell.Position = UDim2.new(0.349987209, 0, 0.0549119562, 0)
-
-
 AutoSell.Size = UDim2.new(0, 127, 0, 31)
-
-
 AutoSell.Font = Enum.Font.SourceSans
-
-
 AutoSell.Text = "AutoSell"
-
-
 AutoSell.TextColor3 = Color3.fromRGB(0, 0, 0)
-
-
 AutoSell.TextScaled = true
-
-
 AutoSell.TextSize = 14.000
-
-
 AutoSell.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-
-
 AutoSell.TextWrapped = true
-
-
 
 UICorner_9.Parent = AutoSell
 
-
-
 FastLift.Name = "FastLift"
-
-
 FastLift.Parent = MuscleF
-
-
 FastLift.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-
-
 FastLift.Position = UDim2.new(0.665407777, 0, 0.0549119562, 0)
-
-
 FastLift.Size = UDim2.new(0, 127, 0, 31)
-
-
 FastLift.Font = Enum.Font.SourceSans
-
-
 FastLift.Text = "FastLift (DISABLED)"
-
-
 FastLift.TextColor3 = Color3.fromRGB(0, 0, 0)
-
-
 FastLift.TextScaled = true
-
-
 FastLift.TextSize = 14.000
-
-
 FastLift.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-
-
 FastLift.TextWrapped = true
-
-
 
 UICorner_10.Parent = FastLift
 
-
-
 FastLift1.Name = "FastLift1"
-
-
 FastLift1.Parent = MuscleF
-
-
 FastLift1.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-
-
 FastLift1.Position = UDim2.new(0.665407777, 0, 0.0549119562, 0)
-
-
 FastLift1.Size = UDim2.new(0, 127, 0, 31)
-
-
 FastLift1.Visible = false
-
-
 FastLift1.Font = Enum.Font.SourceSans
-
-
 FastLift1.Text = "FastLift (Enabled)"
-
-
 FastLift1.TextColor3 = Color3.fromRGB(0, 0, 0)
-
-
 FastLift1.TextScaled = true
-
-
 FastLift1.TextSize = 14.000
-
-
 FastLift1.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-
-
 FastLift1.TextWrapped = true
-
-
 
 UICorner_11.Parent = FastLift1
 
-
-
 SkillsF.Name = "SkillsF"
-
-
 SkillsF.Parent = Main
-
-
 SkillsF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-
-
 SkillsF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
-
-
 SkillsF.Size = UDim2.new(0, 428, 0, 249)
-
-
 SkillsF.Visible = false
-
-
 
 UICorner_12.Parent = SkillsF
 
-
-
 Poseidon.Name = "Poseidon"
-
-
 Poseidon.Parent = SkillsF
-
-
 Poseidon.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-
-
 Poseidon.Position = UDim2.new(0.0345666409, 0, 0.0549119562, 0)
-
-
 Poseidon.Size = UDim2.new(0, 127, 0, 31)
-
-
 Poseidon.Font = Enum.Font.SourceSans
-
-
 Poseidon.Text = "Poseidon"
-
-
 Poseidon.TextColor3 = Color3.fromRGB(0, 0, 0)
-
-
 Poseidon.TextScaled = true
-
-
 Poseidon.TextSize = 14.000
-
-
 Poseidon.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-
-
 Poseidon.TextWrapped = true
-
-
 
 UICorner_13.Parent = Poseidon
 
-
-
 Cronus.Name = "Cronus"
-
-
 Cronus.Parent = SkillsF
-
-
 Cronus.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-
-
 Cronus.Position = UDim2.new(0.349987209, 0, 0.0549119562, 0)
-
-
 Cronus.Size = UDim2.new(0, 127, 0, 31)
-
-
 Cronus.Font = Enum.Font.SourceSans
-
-
 Cronus.Text = "Cronus"
-
-
 Cronus.TextColor3 = Color3.fromRGB(0, 0, 0)
-
-
 Cronus.TextScaled = true
-
-
 Cronus.TextSize = 14.000
-
-
 Cronus.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-
-
 Cronus.TextWrapped = true
-
-
 
 UICorner_14.Parent = Cronus
 
-
-
 Zeus.Name = "Zeus"
-
-
 Zeus.Parent = SkillsF
-
-
 Zeus.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-
-
 Zeus.Position = UDim2.new(0.670080662, 0, 0.0549119562, 0)
-
-
 Zeus.Size = UDim2.new(0, 127, 0, 31)
-
-
 Zeus.Visible = false
-
-
 Zeus.Font = Enum.Font.SourceSans
-
-
 Zeus.Text = "Zeus"
-
-
 Zeus.TextColor3 = Color3.fromRGB(0, 0, 0)
-
-
 Zeus.TextScaled = true
-
-
 Zeus.TextSize = 14.000
-
-
 Zeus.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-
-
 Zeus.TextWrapped = true
-
-
 
 UICorner_15.Parent = Zeus
 
-
-
 SettingsF.Name = "SettingsF"
-
-
 SettingsF.Parent = Main
-
-
 SettingsF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-
-
 SettingsF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
-
-
 SettingsF.Size = UDim2.new(0, 428, 0, 249)
-
-
 SettingsF.Visible = false
-
-
 
 UICorner_16.Parent = SettingsF
 
-
-
 AntiAFK.Name = "AntiAFK"
-
-
 AntiAFK.Parent = SettingsF
-
-
 AntiAFK.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-
-
 AntiAFK.Position = UDim2.new(0.0345665775, 0, 0.0549119711, 0)
-
-
 AntiAFK.Size = UDim2.new(0, 399, 0, 31)
-
-
 AntiAFK.Font = Enum.Font.SourceSans
-
-
 AntiAFK.Text = "AntiAFK (remove 20min idle kick) (ENABLED)"
-
-
 AntiAFK.TextColor3 = Color3.fromRGB(0, 0, 0)
-
-
 AntiAFK.TextScaled = true
-
-
 AntiAFK.TextSize = 14.000
-
-
 AntiAFK.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-
-
 AntiAFK.TextWrapped = true
-
-
 
 UICorner_17.Parent = AntiAFK
 
-
-
 toggleinfo.Name = "toggle info"
-
-
 toggleinfo.Parent = SettingsF
-
-
 toggleinfo.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-
-
 toggleinfo.Position = UDim2.new(0.0345665775, 0, 0.227602735, 0)
-
-
 toggleinfo.Size = UDim2.new(0, 399, 0, 31)
-
-
 toggleinfo.Font = Enum.Font.SourceSans
-
-
 toggleinfo.Text = "Press RightControl to toggle GUI"
-
-
 toggleinfo.TextColor3 = Color3.fromRGB(0, 0, 0)
-
-
 toggleinfo.TextScaled = true
-
-
 toggleinfo.TextSize = 14.000
-
-
 toggleinfo.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-
-
 toggleinfo.TextWrapped = true
-
-
 
 UICorner_18.Parent = toggleinfo
 
-
-
 dope.Name = "dope"
-
-
 dope.Parent = Main
-
-
 dope.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-
-
 dope.BackgroundTransparency = 1.000
-
-
 dope.Size = UDim2.new(0, 143, 0, 45)
-
-
 dope.Font = Enum.Font.SourceSans
-
-
 dope.Text = "DOPE"
-
-
 dope.TextColor3 = Color3.fromRGB(255, 255, 255)
-
-
 dope.TextScaled = true
-
-
 dope.TextSize = 14.000
-
-
 dope.TextWrapped = true
 
-
-
 HomeF.Name = "HomeF"
-
-
 HomeF.Parent = Main
-
-
 HomeF.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-
-
 HomeF.Position = UDim2.new(0.244863018, 0, 0.166666672, 0)
-
-
 HomeF.Size = UDim2.new(0, 428, 0, 249)
-
-
 HomeF.Visible = false
-
-
 
 UICorner_19.Parent = HomeF
 
-
-
 ScrollingFrame.Parent = HomeF
-
-
 ScrollingFrame.Active = true
-
-
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-
-
 ScrollingFrame.BackgroundTransparency = 1.000
-
-
 ScrollingFrame.Position = UDim2.new(0.0210280381, 0, 0.0281124506, 0)
-
-
 ScrollingFrame.Size = UDim2.new(0, 413, 0, 233)
 
-
-
 changelogT.Name = "changelogT"
-
-
 changelogT.Parent = ScrollingFrame
-
-
 changelogT.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-
-
 changelogT.Position = UDim2.new(0.0225448832, 0, 0.0155074224, 0)
-
-
 changelogT.Size = UDim2.new(0, 374, 0, 31)
-
-
 changelogT.Font = Enum.Font.SourceSans
-
-
 changelogT.Text = "DOPE V4.01C"
-
-
 changelogT.TextColor3 = Color3.fromRGB(0, 0, 0)
-
-
 changelogT.TextScaled = true
-
-
 changelogT.TextSize = 14.000
-
-
 changelogT.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-
-
 changelogT.TextWrapped = true
-
-
 
 UICorner_20.Parent = changelogT
 
-
-
 TextButton.Name = "-"
-
-
 TextButton.Parent = ScrollingFrame
-
-
 TextButton.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-
-
 TextButton.BackgroundTransparency = 1.000
-
-
 TextButton.Position = UDim2.new(0.0225448832, 0, 0.101852804, 0)
-
-
 TextButton.Size = UDim2.new(0, 374, 0, 31)
-
-
 TextButton.Font = Enum.Font.SourceSans
-
-
 TextButton.Text = "- made fast lift faster"
-
-
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-
-
 TextButton.TextScaled = true
-
-
 TextButton.TextSize = 14.000
-
-
 TextButton.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-
-
 TextButton.TextWrapped = true
-
-
 
 UICorner_21.Parent = TextButton
 
-
-
 TextButton_2.Name = "-"
-
-
 TextButton_2.Parent = ScrollingFrame
-
-
 TextButton_2.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-
-
 TextButton_2.BackgroundTransparency = 1.000
-
-
 TextButton_2.Position = UDim2.new(0.0225448832, 0, 0.164101809, 0)
-
-
 TextButton_2.Size = UDim2.new(0, 374, 0, 31)
-
-
 TextButton_2.Font = Enum.Font.SourceSans
-
-
 TextButton_2.Text = "- improved performance"
-
-
 TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-
-
 TextButton_2.TextScaled = true
-
-
 TextButton_2.TextSize = 14.000
-
-
 TextButton_2.TextStrokeColor3 = Color3.fromRGB(109, 109, 109)
-
-
 TextButton_2.TextWrapped = true
-
-
 
 UICorner_22.Parent = TextButton_2
 
-
-
 -- Scripts:
 
-
-
 local function GJTP_fake_script() -- HomeB.LocalScript 
-
-
 	local script = Instance.new('LocalScript', HomeB)
 
-
-
 	local HomeF = script.Parent.Parent.HomeF
-
-
 	local MuscleF = script.Parent.Parent.MuscleF
-
-
 	local SkilssF = script.Parent.Parent.SkillsF
-
-
 	local SettingsF = script.Parent.Parent.SettingsF
 
-
-
 	script.Parent.MouseButton1Click:Connect(function()
-
-
 		HomeF.Visible = true
-
-
 		MuscleF.Visible = false
-
-
 		SkilssF.Visible = false
-
-
 		SettingsF.Visible = false
-
-
 	end)
-
-
 end
-
-
 coroutine.wrap(GJTP_fake_script)()
-
-
 local function LYWIMZG_fake_script() -- MuscleB.LocalScript 
-
-
 	local script = Instance.new('LocalScript', MuscleB)
 
-
-
 	local HomeF = script.Parent.Parent.HomeF
-
-
 	local MuscleF = script.Parent.Parent.MuscleF
-
-
 	local SkilssF = script.Parent.Parent.SkillsF
-
-
 	local SettingsF = script.Parent.Parent.SettingsF
 
-
-
 	script.Parent.MouseButton1Click:Connect(function()
-
-
 		HomeF.Visible = false
-
-
 		MuscleF.Visible = true
-
-
 		SkilssF.Visible = false
-
-
 		SettingsF.Visible = false
-
-
 	end)
-
-
 end
-
-
 coroutine.wrap(LYWIMZG_fake_script)()
-
-
 local function GKAQNUI_fake_script() -- SkillsB.LocalScript 
-
-
 	local script = Instance.new('LocalScript', SkillsB)
 
-
-
 	local HomeF = script.Parent.Parent.HomeF
-
-
 	local MuscleF = script.Parent.Parent.MuscleF
-
-
 	local SkilssF = script.Parent.Parent.SkillsF
-
-
 	local SettingsF = script.Parent.Parent.SettingsF
 
-
-
 	script.Parent.MouseButton1Click:Connect(function()
-
-
 		HomeF.Visible = false
-
-
 		MuscleF.Visible = false
-
-
 		SkilssF.Visible = true
-
-
 		SettingsF.Visible = false
-
-
 	end)
-
-
 end
-
-
 coroutine.wrap(GKAQNUI_fake_script)()
-
-
 local function GWMPG_fake_script() -- SettingsB.LocalScript 
-
-
 	local script = Instance.new('LocalScript', SettingsB)
 
-
-
 	local HomeF = script.Parent.Parent.HomeF
-
-
 	local MuscleF = script.Parent.Parent.MuscleF
-
-
 	local SkilssF = script.Parent.Parent.SkillsF
-
-
 	local SettingsF = script.Parent.Parent.SettingsF
 
-
-
 	script.Parent.MouseButton1Click:Connect(function()
-
-
 		HomeF.Visible = false
-
-
 		MuscleF.Visible = false
-
-
 		SkilssF.Visible = false
-
-
 		SettingsF.Visible = true
-
-
 	end)
-
-
 end
-
-
 coroutine.wrap(GWMPG_fake_script)()
-
-
 local function JPEVKEW_fake_script() -- userPNG.LocalScript 
-
-
 	local script = Instance.new('LocalScript', userPNG)
-
-
 
 	local Players = game:GetService("Players")
 
-
-
 	local player = Players.LocalPlayer
 
-
-
 	local userId = player.UserId
-
-
 	local thumbType = Enum.ThumbnailType.HeadShot
-
-
 	local thumbSize = Enum.ThumbnailSize.Size420x420
-
-
 	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
 
-
-
 	local imageLabel = script.Parent
-
-
 	imageLabel.Image = content
-
-
 end
-
-
 coroutine.wrap(JPEVKEW_fake_script)()
-
-
 local function FYADMRA_fake_script() -- AutoClick.LocalScript 
-
-
 	local script = Instance.new('LocalScript', AutoClick)
-
-
 
 	local AutoFarm = script.Parent
 
-
-
 	AutoFarm.MouseButton1Down:connect(function()
-
-
 		if _G.AF == true then _G.AF = false else _G.AF = true end
-
-
 		while _G.AF do
-
-
 			wait()
-
-
 			if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") then
-
-
 				game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool"):Activate()
-
-
 			end
-
-
 			local A_1 = 
-
-
 				{
-
-
 					[1] = "Skill_Disabled", 
-
-
 					[2] = Ray.new(Vector3.new(-739.530945, 558.037659, 2341.94678), Vector3.new(0.594776273, -0.46816507, -0.653500319)), 
-
-
 					[3] = "Skill0"
-
-
 				}
-
-
 			local Event = game:GetService("ReplicatedStorage").RemoteEvent
-
-
 			Event:FireServer(A_1)
-
-
 		end
-
-
 	end)
-
-
 end
-
-
 coroutine.wrap(FYADMRA_fake_script)()
-
-
 local function GYHDXL_fake_script() -- AutoSell.LocalScript 
-
-
 	local script = Instance.new('LocalScript', AutoSell)
-
-
 
 	local AUTOSELL = script.Parent
 
-
-
 	AUTOSELL.MouseButton1Down:connect(function()
-
-
 		_G.Sale = true
 
-
-
 		while _G.Sale do
-
-
 			wait()
-
-
 			local table_1 = {
-
-
 				[1] = 'SellMuscle'
-
-
 			};
-
-
 			local Target = game:GetService("ReplicatedStorage").RemoteEvent;
-
-
 			Target:FireServer(table_1);
-
-
 		end
-
-
 	end)
-
-
 end
-
-
 coroutine.wrap(GYHDXL_fake_script)()
-
-
 local function EDJAHE_fake_script() -- FastLift.LocalScript 
-
-
 	local script = Instance.new('LocalScript', FastLift)
-
-
 
 	local FastLift = script.Parent
 
-
-
 	FastLift.MouseButton1Click:connect(function()
-
-
 		while wait(0.4) do
 
-
-
 			local A_1 =
-
-
 				{
-
-
 					[1] = "GainMuscle"
-
-
 				}
-
-
 			local Event = game:GetService("ReplicatedStorage").RemoteEvent
-
-
 			Event:FireServer(A_1)
-
-
 		end
-
-
 	end)
-
-
 
 	FastLift.MouseButton1Click:Connect(function()
-
-
 		script.Parent.Visible = false
-
-
 		script.Parent.Parent.FastLift1.Visible = true
-
-
 	end)
-
-
 end
-
-
 coroutine.wrap(EDJAHE_fake_script)()
-
-
 local function UEUCSJ_fake_script() -- Poseidon.LocalScript 
-
-
 	local script = Instance.new('LocalScript', Poseidon)
-
-
 
 	local PoseidonB = script.Parent
 
-
-
 	PoseidonB.MouseButton1Down:connect(function()
-
-
 		if _G.PS == true then _G.PS = false else _G.PS = true end
-
-
 		while _G.PS do
-
-
 			wait()
-
-
 			if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") then
-
-
 				game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool"):Activate()
-
-
 			end
-
-
 			local A_1 = 
-
-
 				{
-
-
 					[1] = "Skill_Activated", 
-
-
 					[2] = Ray.new(Vector3.new(-739.530945, 558.037659, 2341.94678), Vector3.new(0.594776273, -0.46816507, -0.653500319)), 
-
-
 					[3] = "Skill3"
-
-
 				}
-
-
 			local Event = game:GetService("ReplicatedStorage").RemoteEvent
-
-
 			Event:FireServer(A_1)
-
-
 		end
-
-
 	end)
-
-
 end
-
-
 coroutine.wrap(UEUCSJ_fake_script)()
-
-
 local function YYYKX_fake_script() -- Cronus.LocalScript 
-
-
 	local script = Instance.new('LocalScript', Cronus)
-
-
 
 	local CronusB = script.Parent
 
-
-
 	CronusB.MouseButton1Down:connect(function()
-
-
 		if _G.CR == true then _G.CR = false else _G.CR = true end
-
-
 		while _G.CR do
-
-
 			wait()
-
-
 			if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") then
-
-
 				game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool"):Activate()
-
-
 			end
-
-
 			local A_1 = 
-
-
 				{
-
-
 					[1] = "Skill_Activated", 
-
-
 					[2] = Ray.new(Vector3.new(-739.530945, 558.037659, 2341.94678), Vector3.new(0.594776273, -0.46816507, -0.653500319)), 
-
-
 					[3] = "Skill7"
-
-
 				}
-
-
 			local Event = game:GetService("ReplicatedStorage").RemoteEvent
-
-
 			Event:FireServer(A_1)
-
-
 		end
-
-
 	end)
-
-
 end
-
-
 coroutine.wrap(YYYKX_fake_script)()
-
-
 local function EHBS_fake_script() -- Zeus.LocalScript 
-
-
 	local script = Instance.new('LocalScript', Zeus)
-
-
 
 	local ZeusB = script.Parent
 
-
-
 	ZeusB.MouseButton1Down:connect(function()
-
-
 		if _G.ZS == true then _G.ZS = false else _G.ZS = true end
-
-
 		while _G.ZS do
-
-
 			wait()
-
-
 			if game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") then
-
-
 				game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool"):Activate()
-
-
 			end
-
-
 			local A_1 = 
-
-
 				{
-
-
 					[1] = "Skill_Activated", 
-
-
 					[2] = Ray.new(Vector3.new(-739.530945, 558.037659, 2341.94678), Vector3.new(0.594776273, -0.46816507, -0.653500319)), 
-
-
 					[3] = "Skill6"
-
-
 				}
-
-
 			local Event = game:GetService("ReplicatedStorage").RemoteEvent
-
-
 			Event:FireServer(A_1)
-
-
 		end
-
-
 	end)
-
-
 end
-
-
 coroutine.wrap(EHBS_fake_script)()
-
-
 local function FZKBS_fake_script() -- AntiAFK.n 
-
-
 	local script = Instance.new('LocalScript', AntiAFK)
 
-
-
 	local vu = game:GetService("VirtualUser")
-
-
 	game:GetService("Players").LocalPlayer.Idled:connect(function()
-
-
 		vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-
-
 		wait(1)
-
-
 		vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-
-
 	end)
-
-
 end
-
-
 coroutine.wrap(FZKBS_fake_script)()
-
-
 local function CBRBXX_fake_script() -- Main.togglegui 
-
-
 	local script = Instance.new('LocalScript', Main)
 
-
-
 	local UIS = game:GetService("UserInputService")
-
-
 	local GuiObj = script.Parent
 
-
-
 	UIS.InputBegan:Connect(function(Key)
-
-
 		if Key.keyCode == Enum.KeyCode.RightControl then
-
-
 			GuiObj.Visible = not GuiObj.Visible
-
-
 		end
-
-
 	end)
-
-
 end
-
-
 coroutine.wrap(CBRBXX_fake_script)()
-
-
