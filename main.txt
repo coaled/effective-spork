@@ -1,1 +1,96 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/coaled/gagaga/main/main"))()
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local dripLogin = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local title = Instance.new("TextLabel")
+local CheckB = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local keybox = Instance.new("TextBox")
+local UICorner_3 = Instance.new("UICorner")
+
+--Properties:
+
+dripLogin.Name = "dripLogin"
+dripLogin.Parent = game.CoreGui
+dripLogin.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = dripLogin
+main.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+main.Position = UDim2.new(0.26475516, 0, 0.225618616, 0)
+main.Size = UDim2.new(0, 544, 0, 311)
+main.Active = true
+main.Draggable = false
+
+UICorner.Parent = main
+
+title.Name = "title"
+title.Parent = main
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.Position = UDim2.new(0.0489632115, 0, 0, 0)
+title.Size = UDim2.new(0, 502, 0, 50)
+title.Font = Enum.Font.SourceSans
+title.Text = "Drip Lite - Login"
+title.TextColor3 = Color3.fromRGB(104, 52, 156)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextWrapped = true
+
+CheckB.Name = "CheckB"
+CheckB.Parent = main
+CheckB.BackgroundColor3 = Color3.fromRGB(85, 255, 0)
+CheckB.BorderSizePixel = 0
+CheckB.Position = UDim2.new(0.314691991, 0, 0.628653109, 0)
+CheckB.Size = UDim2.new(0, 212, 0, 54)
+CheckB.Font = Enum.Font.SourceSans
+CheckB.Text = "Check"
+CheckB.TextColor3 = Color3.fromRGB(0, 0, 0)
+CheckB.TextScaled = true
+CheckB.TextSize = 14.000
+CheckB.TextWrapped = true
+
+UICorner_2.Parent = CheckB
+
+keybox.Name = "keybox"
+keybox.Parent = main
+keybox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+keybox.BackgroundTransparency = 0.800
+keybox.Position = UDim2.new(0.145366788, 0, 0.245337576, 0)
+keybox.Size = UDim2.new(0, 397, 0, 57)
+keybox.Font = Enum.Font.SourceSans
+keybox.Text = "[Insert key here]"
+keybox.TextColor3 = Color3.fromRGB(255, 0, 0)
+keybox.TextScaled = true
+keybox.TextSize = 14.000
+keybox.TextWrapped = true
+
+UICorner_3.Parent = keybox
+
+-- Scripts:
+
+local function WZVAOTE_fake_script() -- CheckB.keychecker 
+	local script = Instance.new('LocalScript', CheckB)
+
+	local key = script.Parent.Parent.keybox
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if key.Text == "aijfjlge+AWfadjf-shg" then
+			script.Parent.Text = "Loading..."
+			wait(3)
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/coaled/gagaga/main/main"))()
+			script.Parent.Parent:Destroy()
+		elseif
+			key.Text == "" then
+			key.Text = "" else
+			key.Text = "Incorrect, try again."
+			wait(1)
+			key.Text = "[Insert key here]"
+		end
+	end)
+end
+coroutine.wrap(WZVAOTE_fake_script)()
