@@ -83,7 +83,7 @@ local function NSRWHT_fake_script() -- CheckB.keychecker
 		if key.Text == "aijfjlge+AWfadjf-shg" then
 			script.Parent.Text = "Loading..."
 			wait(3)
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/coaled/gamechecker/main/main"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/coaled/gagaga/main/main"))()
 			script.Parent.Parent.Parent:Destroy()
 		elseif
 			key.Text == "" then
