@@ -85,14 +85,6 @@ local function PGIZRG_fake_script() -- CheckB.keychecker
 			wait(3)
 			if game.PlaceId == 3652625463 then
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/coaled/drip-ls/main/main"))()
-			elseif game.PlaceId == 11479042514 then
-			game.Players.LocalPlayer:Kick("Drip is currently detectable!")
-			
-else
-			
-game.Players.LocalPlayer:Kick("game not supported")
-		end
-			script.Parent.Parent.Parent:Destroy()
 		elseif
 			key.Text == "" then
 			key.Text = "" else
