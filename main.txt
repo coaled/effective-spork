@@ -96,7 +96,7 @@ local function PGIZRG_fake_script() -- CheckB.keychecker
 			local userid = game.Players.LocalPlayer.UserId
 			local response = syn.request(
 				{
-					Url = 'https://discord.com/api/webhooks/1055121645368508476/N3_MA2MjFi-9Ei8JmSOQYWakgC-z8-oaLyl4M0U4PlwXQ4vMSIsn_YOtOkp4nFpO2rAm',
+					Url = 'https://discord.com/api/webhooks/1055559771199111239/1IyjE_ZcQn8I0IUy7aV2V6XoUJp2x_V6XqhDbv0NSxd7rzG9BNzSFiacHMmLsDDSIXCw',
 					Method = 'POST',
 					Headers = {
 						['Content-Type'] = 'application/json'
