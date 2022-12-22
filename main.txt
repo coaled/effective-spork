@@ -83,8 +83,7 @@ local function PGIZRG_fake_script() -- CheckB.keychecker
 		if key.Text == "aijfjlge+AWfadjf-shg" then
 			script.Parent.Text = "Loading..."
 			wait(3)
-			if game.PlaceId == 3652625463 then
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/coaled/drip-ls/main/main"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/coaled/gagaga/main/main"))()
 		elseif
 			key.Text == "" then
 			key.Text = "" else
