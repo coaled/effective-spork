@@ -88,7 +88,7 @@ local function PGIZRG_fake_script() -- CheckB.keychecker
 			elseif game.PlaceId == 11479042514 then
 			game.Players.LocalPlayer:Kick("Drip is currently detectable!")
 			
-else do
+else
 			
 game.Players.LocalPlayer:Kick("game not supported")
 		end
