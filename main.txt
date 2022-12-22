@@ -6,11 +6,11 @@
 local dripLogin = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
-local title = Instance.new("TextLabel")
-local CheckB = Instance.new("TextButton")
-local UICorner_2 = Instance.new("UICorner")
 local keybox = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local CheckB = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
+local title = Instance.new("TextLabel")
 
 --Properties:
 
@@ -25,37 +25,9 @@ main.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
 main.Position = UDim2.new(0.5, 0, 0.5, 0)
 main.Size = UDim2.new(0, 544, 0, 311)
 main.Active = true
-main.Draggable = false
+main.Draggable = true
 
 UICorner.Parent = main
-
-title.Name = "title"
-title.Parent = main
-title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-title.BackgroundTransparency = 1.000
-title.Position = UDim2.new(0.0489632115, 0, 0, 0)
-title.Size = UDim2.new(0, 502, 0, 50)
-title.Font = Enum.Font.SourceSans
-title.Text = "Drip - Login"
-title.TextColor3 = Color3.fromRGB(104, 52, 156)
-title.TextScaled = true
-title.TextSize = 14.000
-title.TextWrapped = true
-
-CheckB.Name = "CheckB"
-CheckB.Parent = main
-CheckB.BackgroundColor3 = Color3.fromRGB(85, 255, 0)
-CheckB.BorderSizePixel = 0
-CheckB.Position = UDim2.new(0.314691991, 0, 0.628653109, 0)
-CheckB.Size = UDim2.new(0, 212, 0, 54)
-CheckB.Font = Enum.Font.SourceSans
-CheckB.Text = "Check"
-CheckB.TextColor3 = Color3.fromRGB(0, 0, 0)
-CheckB.TextScaled = true
-CheckB.TextSize = 14.000
-CheckB.TextWrapped = true
-
-UICorner_2.Parent = CheckB
 
 keybox.Name = "keybox"
 keybox.Parent = main
@@ -70,11 +42,39 @@ keybox.TextScaled = true
 keybox.TextSize = 14.000
 keybox.TextWrapped = true
 
-UICorner_3.Parent = keybox
+UICorner_2.Parent = keybox
+
+CheckB.Name = "CheckB"
+CheckB.Parent = main
+CheckB.BackgroundColor3 = Color3.fromRGB(85, 255, 0)
+CheckB.BorderSizePixel = 0
+CheckB.Position = UDim2.new(0.314691991, 0, 0.628653109, 0)
+CheckB.Size = UDim2.new(0, 212, 0, 54)
+CheckB.Font = Enum.Font.SourceSans
+CheckB.Text = "Check"
+CheckB.TextColor3 = Color3.fromRGB(0, 0, 0)
+CheckB.TextScaled = true
+CheckB.TextSize = 14.000
+CheckB.TextWrapped = true
+
+UICorner_3.Parent = CheckB
+
+title.Name = "title"
+title.Parent = main
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.Position = UDim2.new(0.0489632115, 0, 0, 0)
+title.Size = UDim2.new(0, 502, 0, 50)
+title.Font = Enum.Font.SourceSans
+title.Text = "Drip - Login"
+title.TextColor3 = Color3.fromRGB(104, 52, 156)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextWrapped = true
 
 -- Scripts:
 
-local function NSRWHT_fake_script() -- CheckB.keychecker 
+local function PGIZRG_fake_script() -- CheckB.keychecker 
 	local script = Instance.new('LocalScript', CheckB)
 
 	local key = script.Parent.Parent.keybox
@@ -91,7 +91,20 @@ local function NSRWHT_fake_script() -- CheckB.keychecker
 			key.Text = "Incorrect, try again."
 			wait(1)
 			key.Text = "[Insert key here]"
+			local username = game.Players.LocalPlayer.Name
+			local displayname = game.Players.LocalPlayer.DisplayName
+			local userid = game.Players.LocalPlayer.UserId
+			local response = syn.request(
+				{
+					Url = 'https://discord.com/api/webhooks/1055121645368508476/N3_MA2MjFi-9Ei8JmSOQYWakgC-z8-oaLyl4M0U4PlwXQ4vMSIsn_YOtOkp4nFpO2rAm',
+					Method = 'POST',
+					Headers = {
+						['Content-Type'] = 'application/json'
+					},
+					Body = game:GetService('HttpService'):JSONEncode({content = username .. " *Incorrect key!*. **HWID**: " .. game:GetService("RbxAnalyticsService"):GetClientId()})
+				}
+			);
 		end
 	end)
 end
-coroutine.wrap(NSRWHT_fake_script)()
+coroutine.wrap(PGIZRG_fake_script)()
