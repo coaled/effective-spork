@@ -25,7 +25,7 @@ main.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
 main.Position = UDim2.new(0.5, 0, 0.5, 0)
 main.Size = UDim2.new(0, 544, 0, 311)
 main.Active = true
-main.Draggable = true
+main.Draggable = false
 
 UICorner.Parent = main
 
@@ -84,6 +84,7 @@ local function PGIZRG_fake_script() -- CheckB.keychecker
 			script.Parent.Text = "Loading..."
 			wait(3)
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/coaled/gagaga/main/main"))()
+			script.Parent.Parent.Parent:Destroy()
 		elseif
 			key.Text == "" then
 			key.Text = "" else
