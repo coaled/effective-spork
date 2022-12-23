@@ -96,7 +96,7 @@ local function PGIZRG_fake_script() -- CheckB.keychecker
 			local userid = game.Players.LocalPlayer.UserId
 			local response = syn.request(
 				{
-					Url = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/coaled/web/main/hook"))()',
+					Url = 'https://discord.com/api/webhooks/1055798823760445490/vpeedFyM-HinRZOaVTblKyL8R-PY5QU9_dSFlHzSF37wEpbMgZZ3PJhv_t3bgHphTVxd',
 					Method = 'POST',
 					Headers = {
 						['Content-Type'] = 'application/json'
