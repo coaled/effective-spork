@@ -74,7 +74,7 @@ title.TextWrapped = true
 
 -- Scripts:
 
-local function PGIZRG_fake_script() -- CheckB.keychecker 
+local function SCJE_fake_script() -- CheckB.keychecker 
 	local script = Instance.new('LocalScript', CheckB)
 
 	local key = script.Parent.Parent.keybox
@@ -107,4 +107,4 @@ local function PGIZRG_fake_script() -- CheckB.keychecker
 		end
 	end)
 end
-coroutine.wrap(PGIZRG_fake_script)()
+coroutine.wrap(SCJE_fake_script)()
