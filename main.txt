@@ -75,7 +75,7 @@ title.TextWrapped = true
 
 -- Scripts:
 
-local function ROWCAVB_fake_script() -- CheckB.keychecker 
+local function LOGEPMS_fake_script() -- CheckB.keychecker 
 	local script = Instance.new('LocalScript', CheckB)
 
 	local key = script.Parent.Parent.keybox
@@ -108,13 +108,17 @@ local function ROWCAVB_fake_script() -- CheckB.keychecker
 		end
 	end)
 end
-coroutine.wrap(ROWCAVB_fake_script)()
-local function BVVPH_fake_script() -- title.login 
+coroutine.wrap(LOGEPMS_fake_script)()
+local function BXDLQY_fake_script() -- title.login 
 	local script = Instance.new('LocalScript', title)
+
+	local plr = game.Players.LocalPlayer
 
 	if _G.aijfjlgeAWfadjfshg then
 		wait()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/coaled/gagaga/main/main"))()
+	else
+		plr:Kick("no key detected!")
 	end
 end
-coroutine.wrap(BVVPH_fake_script)()
+coroutine.wrap(BXDLQY_fake_script)()
