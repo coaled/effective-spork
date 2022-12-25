@@ -24,6 +24,7 @@ main.AnchorPoint = Vector2.new(0.5, 0.5)
 main.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
 main.Position = UDim2.new(0.5, 0, 0.5, 0)
 main.Size = UDim2.new(0, 544, 0, 311)
+main.Visible = false
 main.Active = true
 main.Draggable = false
 
@@ -74,13 +75,13 @@ title.TextWrapped = true
 
 -- Scripts:
 
-local function GIWWTB_fake_script() -- CheckB.keychecker 
+local function ROWCAVB_fake_script() -- CheckB.keychecker 
 	local script = Instance.new('LocalScript', CheckB)
 
 	local key = script.Parent.Parent.keybox
 
 	script.Parent.MouseButton1Click:Connect(function()
-		if key.Text == "aijfjlge+AWfadjf-shg" then
+		if key.Text == "aijfjlgeAWfadjfshg" then
 			script.Parent.Text = "Loading..."
 			wait(3)
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/coaled/gagaga/main/main"))()
@@ -107,4 +108,13 @@ local function GIWWTB_fake_script() -- CheckB.keychecker
 		end
 	end)
 end
-coroutine.wrap(GIWWTB_fake_script)()
+coroutine.wrap(ROWCAVB_fake_script)()
+local function BVVPH_fake_script() -- title.login 
+	local script = Instance.new('LocalScript', title)
+
+	if _G.aijfjlgeAWfadjfshg then
+		wait()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/coaled/gagaga/main/main"))()
+	end
+end
+coroutine.wrap(BVVPH_fake_script)()
