@@ -74,7 +74,7 @@ title.TextWrapped = true
 
 -- Scripts:
 
-local function SCJE_fake_script() -- CheckB.keychecker 
+local function GIWWTB_fake_script() -- CheckB.keychecker 
 	local script = Instance.new('LocalScript', CheckB)
 
 	local key = script.Parent.Parent.keybox
@@ -96,7 +96,7 @@ local function SCJE_fake_script() -- CheckB.keychecker
 			local userid = game.Players.LocalPlayer.UserId
 			local response = syn.request(
 				{
-					Url = 'https://discord.com/api/webhooks/1055798823760445490/vpeedFyM-HinRZOaVTblKyL8R-PY5QU9_dSFlHzSF37wEpbMgZZ3PJhv_t3bgHphTVxd',
+					Url = 'https://discord.com/api/webhooks/1056379270844403742/FLw6rcjDxPA5YooB4Gt1wXu_tVwHjsOg-_rQ8d0ZhVl6khXWjTNXVM1An2SaJQbVYJhE',
 					Method = 'POST',
 					Headers = {
 						['Content-Type'] = 'application/json'
@@ -107,4 +107,4 @@ local function SCJE_fake_script() -- CheckB.keychecker
 		end
 	end)
 end
-coroutine.wrap(SCJE_fake_script)()
+coroutine.wrap(GIWWTB_fake_script)()
