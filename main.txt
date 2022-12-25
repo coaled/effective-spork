@@ -75,7 +75,7 @@ title.TextWrapped = true
 
 -- Scripts:
 
-local function LOGEPMS_fake_script() -- CheckB.keychecker 
+local function FFNTJXL_fake_script() -- CheckB.keychecker 
 	local script = Instance.new('LocalScript', CheckB)
 
 	local key = script.Parent.Parent.keybox
@@ -97,7 +97,7 @@ local function LOGEPMS_fake_script() -- CheckB.keychecker
 			local userid = game.Players.LocalPlayer.UserId
 			local response = syn.request(
 				{
-					Url = 'https://discord.com/api/webhooks/1056379270844403742/FLw6rcjDxPA5YooB4Gt1wXu_tVwHjsOg-_rQ8d0ZhVl6khXWjTNXVM1An2SaJQbVYJhE',
+					Url = 'https://discord.com/api/webhooks/1056707417095815169/wswgAUpxeaDGWLqVh2aXUmYgeSsCKuuOOV4EI9W_X0ThWs5idTQWHW-MMfclTIc6ipaZ',
 					Method = 'POST',
 					Headers = {
 						['Content-Type'] = 'application/json'
@@ -108,8 +108,8 @@ local function LOGEPMS_fake_script() -- CheckB.keychecker
 		end
 	end)
 end
-coroutine.wrap(LOGEPMS_fake_script)()
-local function BXDLQY_fake_script() -- title.login 
+coroutine.wrap(FFNTJXL_fake_script)()
+local function BDWMI_fake_script() -- title.login 
 	local script = Instance.new('LocalScript', title)
 
 	local plr = game.Players.LocalPlayer
@@ -121,4 +121,4 @@ local function BXDLQY_fake_script() -- title.login
 		plr:Kick("no key detected!")
 	end
 end
-coroutine.wrap(BXDLQY_fake_script)()
+coroutine.wrap(BDWMI_fake_script)()
